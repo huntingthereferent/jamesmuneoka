@@ -1,32 +1,39 @@
 # Research
 
-I work as an independent technical researcher at the boundary between software, systems, data, automation, and AI/agent behavior.
+The interesting problems are usually the ones where the category is not obvious yet.
 
-The research is practical: I use working code, bounded experiments, traces, state captures, counterexamples, and reproducible tests to investigate how systems behave and where assumptions fail.
+That means entering a system before its shape is clean, finding what is actually present, and recovering enough structure to make the next valid move.
 
-## Research questions I tend to pursue
+The research is built from working code, bounded experiments, traces, state captures, counterexamples, and reproducible tests.
 
-- How do you recover the structure of an unfamiliar system from its observable behavior?
-- What information must survive when state moves across tools, representations, or interfaces?
-- Where does an expected workflow actually break?
-- Which differences are meaningful, and which are incidental representation changes?
-- How do you preserve evidence while compressing a complicated process into something usable?
-- How can an automated system remain inspectable after many steps?
-- What can be generalized from one domain without pretending unlike systems are identical?
+## Questions
 
-## Current research areas
+- What is the system actually doing?
+- Which parts are state, representation, interface, or interpretation?
+- Where does the expected path stop matching the observed one?
+- Which difference changes meaning and which one only changes form?
+- What has to survive when information moves between tools or layers?
+- How much can be compressed before the evidence is no longer recoverable?
+- Can a process keep moving without filling missing evidence with invention?
+- What survives when a method moves into a different domain?
 
-### Unknown-system tracing
+## Unknown-system tracing
 
-I study unfamiliar systems by establishing a current state, observing changes, tracing dependencies, and locating the smallest boundary where expected and observed behavior diverge.
+Start with the current state.
 
-This has included repositories, filesystems, APIs, structured data, runtimes, browser surfaces, command-line tools, and external services.
+Change one thing.
 
-### Evidence and provenance
+Watch what moves.
 
-A recurring question in my work is how to preserve enough ancestry that a later result can still be inspected.
+Trace the dependency until the first unsupported jump appears.
 
-That includes:
+That pattern has been used across repositories, filesystems, APIs, structured data, runtimes, browser surfaces, command-line tools, and external services.
+
+## Evidence and provenance
+
+A result is stronger when its ancestry is still reachable.
+
+Useful provenance can include:
 
 - source evidence
 - state transitions
@@ -37,33 +44,51 @@ That includes:
 - failure traces
 - cross-layer handoffs
 
-### Agent and reasoning evaluation
+The goal is not to preserve everything forever.
 
-I use bounded environments to study whether a reasoning process can recover rules, detect contradictions, revise hypotheses, and continue without silently replacing missing evidence with assumptions.
+The goal is to preserve enough that the movement can still be inspected.
 
-The important artifact is not only the final score. It is the trace of what was observed, predicted, contradicted, retained, and changed.
+## Agent and reasoning evaluation
 
-### Representation and reconciliation
+Bounded environments make reasoning failures visible.
 
-I investigate cases where the same underlying thing appears through different representations:
+The useful trace is:
+
+```text
+observed
+→ predicted
+→ contradicted or supported
+→ retained or revised
+→ next move
+```
+
+A final score is not enough by itself.
+
+The path matters because that is where unsupported assumptions, false confidence, recovery, and actual rule discovery become visible.
+
+## Representation and reconciliation
+
+The same thing can appear differently depending on where it is observed.
+
+Examples:
 
 - code vs runtime behavior
 - file vs parsed structure
 - API response vs UI
-- source records vs reconciled records
+- source record vs reconciled record
 - current state vs historical state
 
-The goal is to distinguish meaningful change from representational difference.
+The job is to separate meaningful change from representational change.
 
-### Applied systems research
+## Applied systems research
 
-I also use full software systems as research instruments.
+Full systems are useful research instruments.
 
-A public-data application, for example, can expose questions about ingestion, identity, reconciliation, failure semantics, recovery, observability, and provenance that are invisible in a toy script.
+A public-data application can expose questions about identity, ingestion, reconciliation, failure semantics, recovery, observability, and provenance that do not appear in a toy example.
 
-## Research method
+Building the system is part of finding the question.
 
-My default loop is:
+## Research movement
 
 ```text
 establish current state
@@ -77,7 +102,7 @@ establish current state
 → continue
 ```
 
-## What counts as evidence
+## Evidence
 
 Depending on the problem:
 
@@ -94,13 +119,11 @@ Depending on the problem:
 - counterexamples
 - repeated successful predictions
 
-A claim should stay proportional to the evidence supporting it.
+Confidence should not outrun the evidence.
 
 ## Research identity
 
-I am interested in problems where the category is not obvious yet.
-
-That means I am often doing some combination of:
+The recurring work is some combination of:
 
 - specification recovery
 - failure localization
@@ -113,4 +136,6 @@ That means I am often doing some combination of:
 - tool construction
 - cross-domain transfer
 
-The common thread is recovering enough structure to make the next valid move without losing how that move was justified.
+The common thread is simple:
+
+recover enough structure to move without losing why the move was valid.
