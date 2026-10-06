@@ -1,76 +1,138 @@
 # Ability
 
-This is not a list of traits. It is a map of things I can demonstrate through working systems, repositories, experiments, and technical artifacts.
+This is a map of demonstrated capability, not a list of personality traits.
 
-## Systems engineering
+## Technical research
 
-I can take a problem that crosses multiple technical layers and turn it into a working system with explicit boundaries between ingestion, state, processing, interfaces, and output.
-
-Representative work includes:
-
-- Python services and automation
-- FastAPI backends
-- PostgreSQL-backed applications
-- Dockerized environments
-- GitHub Actions workflows
-- public API integration
-- scraping and ingestion
-- validation pipelines
-- monitoring-oriented system design
-- lightweight web interfaces
-
-## Research engineering
-
-I am comfortable working where the implementation path is not obvious yet.
+I can take an ambiguous technical problem and turn it into a bounded investigation.
 
 That includes:
 
-- turning vague questions into bounded experiments
-- preserving observations and counterexamples
-- separating evidence from interpretation
-- building probes instead of guessing about interfaces
-- testing assumptions against prior traces
-- reducing large questions to smaller reproducible cases
-- retaining failed branches when they teach something
+- specification recovery
+- unknown-system tracing
+- hypothesis formation and falsification
+- failure localization
+- counterexample-driven refinement
+- reproducible experiment design
+- evidence preservation
+- provenance analysis
+- recursive decomposition
+- technical documentation
 
-## Cross-system integration
+## Systems and software engineering
 
-I work comfortably across:
+I can build across the full path from source to usable application:
 
-- repositories
-- filesystems
-- structured data
+```text
+public API / scraper
+→ Python ingestion
+→ validation / reconciliation
+→ PostgreSQL
+→ FastAPI
+→ web UI
+→ Docker
+→ GitHub Actions
+→ deployment
+→ monitoring
+→ automated tests
+```
+
+The specific stack changes with the problem. The demonstrated ability is carrying the system end to end.
+
+## Data engineering and reconciliation
+
+I work with:
+
+- structured data transformation
+- ETL-style pipelines
+- schema-tolerant ingestion
+- identity and record matching
+- validation
+- reconciliation
+- lifecycle/history tracking
+- incomplete information
+- legacy data
+- CSV / Excel workflows
+- persisted decision records
+
+## APIs, automation, and integration
+
+I can investigate and connect systems through:
+
+- public APIs
 - HTTP
-- browser and web surfaces
-- runtime processes
+- scraping
+- browser automation
 - command-line tools
-- version control
-- external feeds and APIs
+- filesystems
+- repositories
+- external feeds
+- existing codebases
+- event/state handoffs
 
-The ability I care about here is not knowing every system in advance. It is being able to enter an unfamiliar system, expose its useful boundary, and connect it to the rest of the work without destroying its native meaning.
+## QA and verification
 
-## Product and workflow construction
+I build tests around what a system is supposed to preserve.
 
-I also build software around human movement rather than only machine interfaces.
+That includes:
 
-Current work touches:
+- acceptance-test design
+- regression testing
+- state-transition checks
+- browser/E2E witnesses
+- failure and recovery testing
+- comparison against source records
+- verification of transformations
 
-- education workflows
-- task systems
-- planning
-- calendars
-- social/news feeds
-- project navigation
-- research organization
-- public-data monitoring
-- reusable tools inside larger workflows
+## AI and agent work
 
-## Evidence
+I use AI/agent systems as components inside evidence-grounded workflows rather than treating model output as proof.
 
-The current repositories are the evidence base:
+My work includes:
+
+- agent evaluation
+- tool-use workflows
+- bounded reasoning experiments
+- state/provenance capture
+- failure analysis
+- handoffs between automated and human decisions
+
+## Investigation and OSINT-style work
+
+I can combine technical sources, code, public records, documentation, timestamps, and external evidence to answer questions that do not live in a single system.
+
+The relevant skill is source discipline: separating what is observed from what is inferred.
+
+## Tool construction
+
+I build small tools when an existing interface hides the part of the problem I need to inspect.
+
+Examples of tool shapes include:
+
+- inspectors
+- validators
+- scanners
+- reconciliation utilities
+- data converters
+- monitoring interfaces
+- evidence collectors
+- task/workflow tools
+- research harnesses
+
+## Cross-domain transfer
+
+I am comfortable moving a demonstrated method into a new domain while preserving the original constraints.
+
+The ability is not pretending every domain is the same.
+
+It is identifying which relations survive the move and which must be relearned.
+
+## Evidence base
+
+Current repositories:
 
 - [Language Network](https://github.com/huntingthereferent/language-network)
 - [Eggy](https://github.com/huntingthereferent/eggy)
 - [Axioms](https://github.com/huntingthereferent/axioms)
 
-The point of this file is simple: claims about ability should be inspectable.
+This repository will increasingly link individual ability claims to concrete artifacts, tests, traces, and projects.
