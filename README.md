@@ -1,80 +1,128 @@
 # James Muneoka
 
-I build research-driven software systems, automation, data tools, and experimental infrastructure.
+**Independent Technical Researcher · Systems Investigator · Software / Data / Automation Builder**
 
-My work usually starts with a messy real-world problem, then moves through observation, modeling, implementation, testing, and refinement until the system is useful and explainable.
+I work on problems that cross software, data, automation, AI/agent behavior, and real-world system boundaries.
 
-## What I work on
+I usually start where the structure is unclear: establish what is actually present, trace what changes, locate where expectations stop matching reality, and build the smallest useful thing that makes the next step testable.
 
-- automation and agent workflows
-- data ingestion and validation
-- APIs and backend systems
-- research tooling
-- public-data monitoring
-- provenance and traceability
-- task and workflow systems
-- experimental interfaces
-- cross-system integration
-- software that helps people move through complex information without losing context
+## Research
+
+Research is a primary part of my work, not an afterthought to software development.
+
+I investigate unfamiliar systems through working code, bounded experiments, traces, counterexamples, state captures, and reproducible tests.
+
+Current interests include:
+
+- unknown-system tracing
+- specification recovery
+- evidence and provenance
+- agent/reasoning evaluation
+- failure localization
+- representation translation
+- reconciliation
+- state and dependency tracing
+- recursive decomposition
+- cross-domain transfer
+- applied systems research
+
+See **[RESEARCH.md](RESEARCH.md)**.
 
 ## Ability
 
-I prefer to show ability through artifacts rather than adjectives.
+My work spans more than application development.
 
-The current work demonstrates systems engineering, research engineering, cross-system integration, workflow construction, testing, and the ability to move from an unfamiliar problem to a bounded working implementation.
+I have demonstrated work in:
 
-See **[ABILITY.md](ABILITY.md)** for the concrete capability map and the repositories that support it.
+- technical research and experimental design
+- Python and backend/API development
+- data ingestion, transformation, validation, and reconciliation
+- PostgreSQL and persisted application state
+- FastAPI and web interfaces
+- Docker and CI/CD
+- automated and acceptance testing
+- browser/E2E verification
+- public APIs, scraping, and external integrations
+- filesystems, repositories, HTTP, structured data, and runtime investigation
+- AI/agent tooling and evaluation
+- provenance and evidence systems
+- OSINT-style technical investigation
+- legacy-data and existing-code analysis
+- tool construction and workflow automation
+
+See **[ABILITY.md](ABILITY.md)** for the fuller capability map.
 
 ## Opinions
 
-I think it is normal for engineers and researchers to have technical opinions.
+I think researchers and engineers should be allowed to have visible technical judgment.
 
-Mine are working positions: things I currently believe because of what I have built and tested, and things I expect to revise when better evidence appears.
+My opinions are working positions earned from building and testing things, not permanent doctrine.
 
-A few examples:
+A few:
 
+- evidence should constrain confidence;
+- unknown is a valid technical state;
+- failed experiments are part of research;
 - real integrations should be tested against real systems;
-- failed experiments are useful when they narrow the problem;
-- small proofs are better than large speculative architecture;
-- tools should reduce translation cost for the person using them;
-- automation should preserve evidence and context, not only trigger actions;
-- repositories should each make one understandable claim.
+- provenance is part of system quality;
+- representation should not be confused with reality;
+- research and engineering should inform each other;
+- automation should preserve context, not only perform actions.
 
-See **[OPINIONS.md](OPINIONS.md)** for the fuller set.
+See **[OPINIONS.md](OPINIONS.md)**.
 
 ## Current projects
 
 ### [Language Network](https://github.com/huntingthereferent/language-network)
 
-A continuity layer for moving through people, conversations, time, work, knowledge, connected systems, and the wider internet without losing the thread.
-
-The project includes work around live external feeds, task and planning systems, online school workflows, public-data tooling, research and project navigation, provenance-preserving handoffs, human-facing web interfaces, and cross-system state and event movement.
+A continuity and systems project spanning live external feeds, task/planning systems, education workflows, public-data tooling, research navigation, provenance-preserving handoffs, interfaces, and cross-system state.
 
 ### [Eggy](https://github.com/huntingthereferent/eggy)
 
-An experimental research repository containing implementations, probes, tests, movement traces, failure cases, and preserved technical evidence from earlier system exploration.
-
-It includes work across filesystems, repositories, HTTP, structured data, runtimes, browser/web surfaces, command-line interfaces, version control, and provenance.
+An experimental systems-research repository preserving probes, implementations, tests, movement traces, failure cases, provenance, and earlier technical branches across filesystems, repositories, HTTP, structured data, runtimes, browser surfaces, CLI tools, and version control.
 
 ### [Axioms](https://github.com/huntingthereferent/axioms)
 
-A small research repository for reducing larger system questions to minimal, testable rules before implementation grows around them.
+A minimal research repository used to reduce larger system questions to small, testable foundations before surrounding architecture is allowed to grow.
 
-## Engineering style
+## End-to-end engineering
 
-I prefer systems where the path from source to result can be inspected.
+One recurring project shape is:
 
-observe -> record -> model -> build -> test -> compare -> preserve what survived -> continue
+```text
+public API / scraper
+→ Python ingestion
+→ validation / reconciliation
+→ PostgreSQL
+→ FastAPI
+→ web UI
+→ Docker
+→ GitHub Actions
+→ deployment
+→ monitoring
+→ automated tests
+```
 
-I try to keep experimental evidence separate from assumptions, keep failures visible, and avoid adding architecture just to make an idea look complete.
+I care about the whole path: acquisition, transformation, persistence, interfaces, failure behavior, recovery, verification, and operation.
 
-## Technical areas
+## Working method
 
-Python, FastAPI, PostgreSQL, Docker, GitHub Actions, AWS, public APIs, scraping and ingestion, validation pipelines, web interfaces, automation, testing, event/state systems, and research tooling.
+```text
+establish state
+→ separate observed / supplied / assumed
+→ trace relevant relations
+→ locate the unresolved boundary
+→ build or probe
+→ compare expected vs observed
+→ preserve evidence
+→ revise
+→ continue
+```
 
 ## More
 
-- [ABILITY.md](ABILITY.md) — demonstrated capability
+- [RESEARCH.md](RESEARCH.md) — research identity, questions, and methods
+- [ABILITY.md](ABILITY.md) — demonstrated capability map
 - [OPINIONS.md](OPINIONS.md) — current technical positions
 - [PROJECTS.md](PROJECTS.md) — project map
-- [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) — research process
+- [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) — detailed working process
