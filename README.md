@@ -1,114 +1,56 @@
 # James Muneoka
 
-I build systems around a simple constraint:
+I build research-driven software systems, automation, data tools, and experimental infrastructure.
 
-> Preserve the referent, preserve the evidence, and do not invent the movement between them.
+My work usually starts with a messy real-world problem, then moves through observation, modeling, implementation, testing, and refinement until the system is useful and explainable.
 
-The work here moves from small mathematical contracts into larger systems without treating a higher layer as permission to erase what was demonstrated below it.
+## What I work on
 
-## Current stack
+- automation and agent workflows
+- data ingestion and validation
+- APIs and backend systems
+- research tooling
+- public-data monitoring
+- provenance and traceability
+- task and workflow systems
+- experimental interfaces
+- cross-system integration
+- software that helps people move through complex information without losing context
 
-### [Axioms](https://github.com/huntingthereferent/axioms)
-
-The clean mathematical layer.
-
-Axioms starts with one object and one recursively reusable operation:
-
-```text
-X0 --A/B--> X1 --A/B--> X2
-```
-
-The output must remain admissible as input under the same evidentiary contract. No hidden human orientation is allowed between applications.
-
-**Current question:** what is the smallest relation that survives recursive reuse without adding an unsupported higher-layer operator?
-
----
-
-### [Eggy](https://github.com/huntingthereferent/eggy)
-
-Preserved implementation history and evidence bank.
-
-Eggy contains working artifacts, counterexamples, failure modes, movement observations, provenance, and experiments accumulated while exploring continuity across native layers.
-
-It is not the mathematical ground. It is evidence.
-
-```text
-implemented artifact history
-!=
-current mathematical justification
-```
-
----
+## Current projects
 
 ### [Language Network](https://github.com/huntingthereferent/language-network)
 
-The outward systems layer.
+A continuity layer for moving through people, conversations, time, work, knowledge, connected systems, and the wider internet without losing the thread.
 
-Language Network studies how continuity can survive movement through people, conversations, work, time, connected systems, and the wider internet while each source keeps its own native state.
+The project includes work around live external feeds, task and planning systems, online school workflows, public-data tooling, research and project navigation, provenance-preserving handoffs, human-facing web interfaces, and cross-system state and event movement.
 
-Its core movement is:
+### [Eggy](https://github.com/huntingthereferent/eggy)
 
-```text
-current referent
--> required relation
--> enter required layer
--> witness / model / build / measure
--> preserve provenance
--> return result as valid input
--> continue
-```
+An experimental research repository containing implementations, probes, tests, movement traces, failure cases, and preserved technical evidence from earlier system exploration.
 
-External systems remain external. The network preserves why they were touched, what relation they added, and how the current state descended from prior evidence.
+It includes work across filesystems, repositories, HTTP, structured data, runtimes, browser/web surfaces, command-line interfaces, version control, and provenance.
 
-## How the repositories relate
+### [Axioms](https://github.com/huntingthereferent/axioms)
 
-```text
-Axioms
-  mathematical contract
-       |
-       v
-Eggy
-  experiments + witnesses + failure history
-       |
-       v
-Language Network
-  translation across domains and operating systems
-       |
-       v
-applications / tools / public proofs
-```
+A small research repository for reducing larger system questions to minimal, testable rules before implementation grows around them.
 
-Movement can also go backward. A real application may expose a missing relation, which returns the work to the smallest layer where the distinction can actually be justified.
+## Engineering style
 
-## Working discipline
+I prefer systems where the path from source to result can be inspected.
 
-- Language first, then math one layer up, then implementation.
-- Unsupported movement is not promoted into movement.
-- UNKNOWN may remain UNKNOWN.
-- Similarity is not evidence of continuity.
-- Coverage is not automatically preservation.
-- Provenance must survive any movement that depends on it.
-- A result should become valid input again whenever recursion is claimed.
-- Older implementations may remain evidence without defining the next architecture.
+observe -> record -> model -> build -> test -> compare -> preserve what survived -> continue
 
-## What I publish
+I try to keep experimental evidence separate from assumptions, keep failures visible, and avoid adding architecture just to make an idea look complete.
 
-This repository maps several different kinds of artifacts:
+## Technical areas
 
-| Layer | Artifact |
-|---|---|
-| Ground | mathematical contracts and invariants |
-| Evidence | witnesses, counterexamples, traces, experiments |
-| Translation | protocols that carry supported movement between layers |
-| Systems | applications built without discarding provenance |
-| Reviews | audits of what changed, what survived, and what remains unknown |
+Python, FastAPI, PostgreSQL, Docker, GitHub Actions, AWS, public APIs, scraping and ingestion, validation pipelines, web interfaces, automation, testing, event/state systems, and research tooling.
 
-The goal is not to make every repository look the same. The goal is to make the movement between them inspectable.
+## How the repositories fit together
 
-## Current repositories
+The repositories are not meant to be identical. Some are small research kernels. Some preserve experiments. Some are larger applications.
 
-- **[Axioms](https://github.com/huntingthereferent/axioms)** — recursive mathematical ground.
-- **[Eggy](https://github.com/huntingthereferent/eggy)** — preserved evidence and implementation history.
-- **[Language Network](https://github.com/huntingthereferent/language-network)** — continuity across human, software, organizational, and internet surfaces.
+The common thread is building systems that can grow without losing the evidence, decisions, and context that produced them.
 
-See [PROJECTS.md](PROJECTS.md) for the portfolio map and [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) for the working research loop.
+See [PROJECTS.md](PROJECTS.md) for a project-oriented view and [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) for the working research process.
