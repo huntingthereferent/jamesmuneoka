@@ -1,87 +1,95 @@
 # Opinions
 
-These are working technical positions, not permanent doctrine.
+These are current technical positions.
 
-They exist because building and researching systems produces judgment. I would rather make that judgment visible than pretend technical work is opinion-free.
+They are here to be tested.
 
 ## Evidence should constrain confidence
 
 A clean explanation is not the same thing as a demonstrated result.
 
-I prefer claims that remain proportional to the evidence behind them.
+Confidence should not move farther than the evidence.
 
 ## Unknown is a valid technical state
 
-Missing evidence should not be silently converted into certainty.
+Missing evidence is not a blank that needs to be filled.
 
-A system that can preserve uncertainty is often more trustworthy than one that always produces an answer.
+Sometimes the correct state is still unknown.
 
-## Real integrations should be tested against real systems
+Keep it unknown until something earns the next move.
 
-Mocks are useful for isolated behavior.
+## Real integrations need real-system tests
 
-They are not evidence that an API, browser, filesystem, repository, feed, deployment target, or user workflow actually works.
+Mocks can prove isolated behavior.
 
-When the boundary matters, test the boundary.
+They cannot prove that an API, browser, filesystem, repository, feed, deployment target, or user workflow actually works.
 
-## Failed experiments belong in research
+If the boundary matters, test the boundary.
 
-A failed branch can eliminate a possibility, expose a hidden dependency, reveal an invalid assumption, or show that the boundary was drawn incorrectly.
+## Failed experiments belong in the record
 
-That is useful output.
+A failed branch can remove a possibility, expose a hidden dependency, break an assumption, or show that the boundary was wrong.
+
+That is progress.
 
 ## Small proofs beat large speculative architecture
 
-When the difficult part is uncertain, infrastructure can hide the uncertainty instead of solving it.
+When the difficult part is still uncertain, more infrastructure can hide the problem.
 
-I prefer proving the difficult relation in the smallest environment where it can actually fail.
+Prove the hard part where it can fail clearly.
+
+Then build around what survived.
 
 ## Provenance is part of system quality
 
-If a result matters, I want to know where it came from, what transformed it, and what evidence supported the transformation.
+A result should carry enough ancestry to answer:
 
-Observability is not only metrics. It is also ancestry.
+- where did this come from?
+- what changed it?
+- what evidence supported that change?
 
-## Representation should not be confused with reality
+Observability is not only metrics.
 
-The same underlying state can appear differently in code, files, APIs, databases, and interfaces.
+It is also lineage.
 
-A representation change is not automatically a semantic change.
+## Representation is not reality
+
+The same state can look different in code, files, APIs, databases, and interfaces.
+
+Different representation does not automatically mean different meaning.
 
 ## Automation should preserve context
 
-Automating an action is easy.
+Making an action happen is the easy part.
 
-The harder and more useful problem is preserving enough context that the next action still makes sense.
+The useful part is keeping enough context that the next action still makes sense.
 
 ## Tools should reduce translation cost
 
-A good tool helps a person stay inside the problem.
+A person should not have to keep translating the problem into the tool's vocabulary.
 
-It should not force them to repeatedly translate their intent into the software's internal vocabulary.
+The tool should meet the problem closer to where it already exists.
 
-## Existing systems deserve to keep their native meaning
+## Existing systems should keep their native meaning
 
-I do not think every source needs to be flattened into one universal schema.
+Integration does not require flattening everything into one universal shape.
 
-Integration can preserve local structure while still creating useful continuity across systems.
+Local structure can stay local while the useful relations between systems are preserved.
 
-## Research and engineering should not be separated too early
+## Research and engineering belong in the same loop
 
-Many useful technical questions only become visible once something is actually built.
+Some questions do not exist until the system is built.
 
-Likewise, many implementations improve when treated as experiments rather than finished answers.
+Some implementations do not become clear until they are treated like experiments.
 
-I prefer a loop where research and engineering inform each other.
+Separate them too early and both get weaker.
 
 ## Repositories should make one understandable claim
 
-A body of work can be connected without requiring a reader to understand everything at once.
+A larger body of work can stay connected without making every project explain everything.
 
-Each repository should have a legible job.
+Each repository should have a job a stranger can understand.
 
-## Opinions should be revisable
+## Positions move when the evidence moves
 
-A technical opinion should survive contact with evidence.
-
-If a better experiment, implementation, or counterexample breaks one of these positions, the position should move.
+If a better experiment, implementation, or counterexample breaks one of these positions, change the position.
