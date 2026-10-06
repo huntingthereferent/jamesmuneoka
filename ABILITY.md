@@ -1,10 +1,12 @@
 # Ability
 
-This is a map of demonstrated capability, not a list of personality traits.
+Ability is easier to show than describe.
+
+This page is a map of work that can be demonstrated through systems, experiments, traces, tests, and artifacts.
 
 ## Technical research
 
-I can take an ambiguous technical problem and turn it into a bounded investigation.
+Turn an unclear technical problem into something bounded enough to test.
 
 That includes:
 
@@ -21,7 +23,7 @@ That includes:
 
 ## Systems and software engineering
 
-I can build across the full path from source to usable application:
+Carry a problem from source to working application:
 
 ```text
 public API / scraper
@@ -37,11 +39,13 @@ public API / scraper
 → automated tests
 ```
 
-The specific stack changes with the problem. The demonstrated ability is carrying the system end to end.
+The stack can change.
+
+The ability is keeping the system coherent across the whole path.
 
 ## Data engineering and reconciliation
 
-I work with:
+Work includes:
 
 - structured data transformation
 - ETL-style pipelines
@@ -57,7 +61,7 @@ I work with:
 
 ## APIs, automation, and integration
 
-I can investigate and connect systems through:
+Systems can be entered and connected through:
 
 - public APIs
 - HTTP
@@ -72,7 +76,7 @@ I can investigate and connect systems through:
 
 ## QA and verification
 
-I build tests around what a system is supposed to preserve.
+Tests are built around what the system is supposed to preserve.
 
 That includes:
 
@@ -82,32 +86,36 @@ That includes:
 - browser/E2E witnesses
 - failure and recovery testing
 - comparison against source records
-- verification of transformations
+- transformation verification
 
 ## AI and agent work
 
-I use AI/agent systems as components inside evidence-grounded workflows rather than treating model output as proof.
+AI/agent systems are useful inside evidence-grounded workflows.
 
-My work includes:
+The model output is not the proof.
+
+Work includes:
 
 - agent evaluation
 - tool-use workflows
 - bounded reasoning experiments
 - state/provenance capture
 - failure analysis
-- handoffs between automated and human decisions
+- human/agent handoffs
 
-## Investigation and OSINT-style work
+## Investigation and source work
 
-I can combine technical sources, code, public records, documentation, timestamps, and external evidence to answer questions that do not live in a single system.
+Technical questions often live across more than one source.
 
-The relevant skill is source discipline: separating what is observed from what is inferred.
+Useful evidence may come from code, public records, documentation, timestamps, repositories, APIs, or runtime behavior.
+
+The work is in keeping observed facts separate from inference while still moving toward an answer.
 
 ## Tool construction
 
-I build small tools when an existing interface hides the part of the problem I need to inspect.
+When an interface hides the part that needs inspection, build a smaller tool around the missing view.
 
-Examples of tool shapes include:
+Common shapes:
 
 - inspectors
 - validators
@@ -121,11 +129,11 @@ Examples of tool shapes include:
 
 ## Cross-domain transfer
 
-I am comfortable moving a demonstrated method into a new domain while preserving the original constraints.
+A method can move without pretending the domains are identical.
 
-The ability is not pretending every domain is the same.
+Carry forward what survives.
 
-It is identifying which relations survive the move and which must be relearned.
+Relearn what does not.
 
 ## Evidence base
 
@@ -135,4 +143,4 @@ Current repositories:
 - [Eggy](https://github.com/huntingthereferent/eggy)
 - [Axioms](https://github.com/huntingthereferent/axioms)
 
-This repository will increasingly link individual ability claims to concrete artifacts, tests, traces, and projects.
+The next step for this file is tighter evidence linking: capability → artifact → test / trace / repo.
