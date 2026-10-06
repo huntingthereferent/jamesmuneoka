@@ -17,6 +17,31 @@ My work usually starts with a messy real-world problem, then moves through obser
 - cross-system integration
 - software that helps people move through complex information without losing context
 
+## Ability
+
+I prefer to show ability through artifacts rather than adjectives.
+
+The current work demonstrates systems engineering, research engineering, cross-system integration, workflow construction, testing, and the ability to move from an unfamiliar problem to a bounded working implementation.
+
+See **[ABILITY.md](ABILITY.md)** for the concrete capability map and the repositories that support it.
+
+## Opinions
+
+I think it is normal for engineers and researchers to have technical opinions.
+
+Mine are working positions: things I currently believe because of what I have built and tested, and things I expect to revise when better evidence appears.
+
+A few examples:
+
+- real integrations should be tested against real systems;
+- failed experiments are useful when they narrow the problem;
+- small proofs are better than large speculative architecture;
+- tools should reduce translation cost for the person using them;
+- automation should preserve evidence and context, not only trigger actions;
+- repositories should each make one understandable claim.
+
+See **[OPINIONS.md](OPINIONS.md)** for the fuller set.
+
 ## Current projects
 
 ### [Language Network](https://github.com/huntingthereferent/language-network)
@@ -47,10 +72,9 @@ I try to keep experimental evidence separate from assumptions, keep failures vis
 
 Python, FastAPI, PostgreSQL, Docker, GitHub Actions, AWS, public APIs, scraping and ingestion, validation pipelines, web interfaces, automation, testing, event/state systems, and research tooling.
 
-## How the repositories fit together
+## More
 
-The repositories are not meant to be identical. Some are small research kernels. Some preserve experiments. Some are larger applications.
-
-The common thread is building systems that can grow without losing the evidence, decisions, and context that produced them.
-
-See [PROJECTS.md](PROJECTS.md) for a project-oriented view and [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) for the working research process.
+- [ABILITY.md](ABILITY.md) — demonstrated capability
+- [OPINIONS.md](OPINIONS.md) — current technical positions
+- [PROJECTS.md](PROJECTS.md) — project map
+- [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) — research process
