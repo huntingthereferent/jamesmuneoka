@@ -2,17 +2,23 @@
 
 **Independent Technical Researcher · Systems Investigator · Software / Data / Automation Builder**
 
-I work on problems that cross software, data, automation, AI/agent behavior, and real-world system boundaries.
+Most of my work starts where the structure is still unclear.
 
-I usually start where the structure is unclear: establish what is actually present, trace what changes, locate where expectations stop matching reality, and build the smallest useful thing that makes the next step testable.
+Find what is actually there.  
+Trace what changes.  
+Separate observation from assumption.  
+Locate the break.  
+Build the smallest thing that can test it.  
+Keep the evidence.  
+Continue from what survives.
 
 ## Research
 
-Research is a primary part of my work, not an afterthought to software development.
+Research is the center of the work.
 
-I investigate unfamiliar systems through working code, bounded experiments, traces, counterexamples, state captures, and reproducible tests.
+The questions usually sit between software, data, automation, AI/agent behavior, and the systems around them.
 
-Current interests include:
+Current areas:
 
 - unknown-system tracing
 - specification recovery
@@ -30,11 +36,11 @@ See **[RESEARCH.md](RESEARCH.md)**.
 
 ## Ability
 
-My work spans more than application development.
+The useful question is not what titles fit me. It is what I can actually do.
 
-I have demonstrated work in:
+Current demonstrated range:
 
-- technical research and experimental design
+- technical research and experiment design
 - Python and backend/API development
 - data ingestion, transformation, validation, and reconciliation
 - PostgreSQL and persisted application state
@@ -50,24 +56,24 @@ I have demonstrated work in:
 - legacy-data and existing-code analysis
 - tool construction and workflow automation
 
-See **[ABILITY.md](ABILITY.md)** for the fuller capability map.
+See **[ABILITY.md](ABILITY.md)**.
 
 ## Opinions
 
-I think researchers and engineers should be allowed to have visible technical judgment.
+Technical work produces judgment.
 
-My opinions are working positions earned from building and testing things, not permanent doctrine.
+That judgment should be visible enough to challenge.
 
-A few:
+A few current positions:
 
-- evidence should constrain confidence;
-- unknown is a valid technical state;
-- failed experiments are part of research;
-- real integrations should be tested against real systems;
-- provenance is part of system quality;
-- representation should not be confused with reality;
-- research and engineering should inform each other;
-- automation should preserve context, not only perform actions.
+- evidence should constrain confidence
+- unknown is a valid technical state
+- failed experiments are still useful research
+- real integrations need real-system tests
+- provenance is part of system quality
+- representation is not reality
+- research and engineering belong in the same loop
+- automation should preserve context, not only perform actions
 
 See **[OPINIONS.md](OPINIONS.md)**.
 
@@ -83,11 +89,11 @@ An experimental systems-research repository preserving probes, implementations, 
 
 ### [Axioms](https://github.com/huntingthereferent/axioms)
 
-A minimal research repository used to reduce larger system questions to small, testable foundations before surrounding architecture is allowed to grow.
+A minimal research repository used to reduce larger system questions to small, testable foundations before surrounding architecture grows around them.
 
 ## End-to-end engineering
 
-One recurring project shape is:
+A recurring system shape:
 
 ```text
 public API / scraper
@@ -103,14 +109,14 @@ public API / scraper
 → automated tests
 ```
 
-I care about the whole path: acquisition, transformation, persistence, interfaces, failure behavior, recovery, verification, and operation.
+The value is not one box in that chain. It is being able to carry the problem across the whole thing without losing where the data, state, failures, or decisions came from.
 
-## Working method
+## Working movement
 
 ```text
 establish state
 → separate observed / supplied / assumed
-→ trace relevant relations
+→ trace what matters
 → locate the unresolved boundary
 → build or probe
 → compare expected vs observed
@@ -121,8 +127,8 @@ establish state
 
 ## More
 
-- [RESEARCH.md](RESEARCH.md) — research identity, questions, and methods
-- [ABILITY.md](ABILITY.md) — demonstrated capability map
+- [RESEARCH.md](RESEARCH.md) — questions, methods, and current research directions
+- [ABILITY.md](ABILITY.md) — demonstrated capability
 - [OPINIONS.md](OPINIONS.md) — current technical positions
 - [PROJECTS.md](PROJECTS.md) — project map
-- [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) — detailed working process
+- [docs/RESEARCH_METHOD.md](docs/RESEARCH_METHOD.md) — working research process
