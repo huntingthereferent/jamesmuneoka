@@ -1,146 +1,32 @@
-# Ability
+# Capabilities
 
-Ability is easier to show than describe.
+Ability is demonstrated through what a system, test, or tool can actually do—not a list of job titles.
 
-This page is a map of work that can be demonstrated through systems, experiments, traces, tests, and artifacts.
+## Working range
 
-## Technical research
+| Capability | Work | Witness |
+| --- | --- | --- |
+| **Unknown-system investigation** | Recover rules and dependencies, locate where an expectation breaks. | Probe, state trace, counterexample |
+| **Tool building** | Python utilities, validators, converters, and focused application components. | Source, input/output example, acceptance test |
+| **Data and reconciliation** | Move and match records across formats, identify inconsistencies, preserve ancestry. | Before/after data and verification |
+| **Agent and software evaluation** | Test tool actions, stateful behavior, predictions, recovery, and failed assumptions. | Native replay and regression tests |
+| **Integrations** | Work with existing code, filesystems, HTTP, APIs, repositories, and browser workflows. | Real-boundary tests |
+| **Technical handoff** | Return the artifact, relevant state, evidence, and unresolved limits. | Recoverable instructions and test records |
 
-Turn an unclear technical problem into something bounded enough to test.
+## Demonstrated research
 
-That includes:
+ARC-AGI-3 local experiments recovered collision rules, geometry, move budgets, launcher paths, cyclic switches, and click-driven color constraints. SK48, LS20, and FT09 reached full local wins with fresh replay verification. A specialized FT09 agent chose clicks from rendered frames and checked observed outcomes against predictions.
 
-- specification recovery
-- unknown-system tracing
-- hypothesis formation and falsification
-- failure localization
-- counterexample-driven refinement
-- reproducible experiment design
-- evidence preservation
-- provenance analysis
-- recursive decomposition
-- technical documentation
+These are **verified public-game experiments**, not evidence of a general-purpose competition-winning agent. Details and limitations: [Selected work](SELECTED_WORK.md).
 
-## Systems and software engineering
+Other technical research spans source inspection, structured data, HTTP, runtimes, repositories, and evidence-preserving workflow design. Larger source archives remain private.
 
-Carry a problem from source to working application:
+## Engineering direction
 
-```text
-public API / scraper
-→ Python ingestion
-→ validation / reconciliation
-→ PostgreSQL
-→ FastAPI
-→ web UI
-→ Docker
-→ GitHub Actions
-→ deployment
-→ monitoring
-→ automated tests
-```
+Python, structured data and CSV/Excel workflows, APIs, automated tests, state models, and tool construction are current practical areas.
 
-The stack can change.
+A complete public-data application—Python ingestion, reconciliation, PostgreSQL, FastAPI, web UI, Docker, CI, deployment, monitoring—is a **build direction**, not a blanket claim that every production component has already shipped.
 
-The ability is keeping the system coherent across the whole path.
+The same method applies to repairing an existing workflow, building a bounded utility, and developing an end-to-end service. Evidence grows with what is actually delivered.
 
-## Data engineering and reconciliation
-
-Work includes:
-
-- structured data transformation
-- ETL-style pipelines
-- schema-tolerant ingestion
-- identity and record matching
-- validation
-- reconciliation
-- lifecycle/history tracking
-- incomplete information
-- legacy data
-- CSV / Excel workflows
-- persisted decision records
-
-## APIs, automation, and integration
-
-Systems can be entered and connected through:
-
-- public APIs
-- HTTP
-- scraping
-- browser automation
-- command-line tools
-- filesystems
-- repositories
-- external feeds
-- existing codebases
-- event/state handoffs
-
-## QA and verification
-
-Tests are built around what the system is supposed to preserve.
-
-That includes:
-
-- acceptance-test design
-- regression testing
-- state-transition checks
-- browser/E2E witnesses
-- failure and recovery testing
-- comparison against source records
-- transformation verification
-
-## AI and agent work
-
-AI/agent systems are useful inside evidence-grounded workflows.
-
-The model output is not the proof.
-
-Work includes:
-
-- agent evaluation
-- tool-use workflows
-- bounded reasoning experiments
-- state/provenance capture
-- failure analysis
-- human/agent handoffs
-
-## Investigation and source work
-
-Technical questions often live across more than one source.
-
-Useful evidence may come from code, public records, documentation, timestamps, repositories, APIs, or runtime behavior.
-
-The work is in keeping observed facts separate from inference while still moving toward an answer.
-
-## Tool construction
-
-When an interface hides the part that needs inspection, build a smaller tool around the missing view.
-
-Common shapes:
-
-- inspectors
-- validators
-- scanners
-- reconciliation utilities
-- data converters
-- monitoring interfaces
-- evidence collectors
-- task/workflow tools
-- research harnesses
-
-## Cross-domain transfer
-
-A method can move without pretending the domains are identical.
-
-Carry forward what survives.
-
-Relearn what does not.
-
-## Evidence base
-
-Current repositories:
-
-- [Language Network](https://github.com/huntingthereferent/language-network)
-- [Eggy](https://github.com/huntingthereferent/eggy)
-- [Axioms](https://github.com/huntingthereferent/axioms)
-
-The next step for this file is tighter evidence linking: capability → artifact → test / trace / repo.
+[Working with me](WORK_WITH_ME.md) · [Research](RESEARCH.md) · [Projects](PROJECTS.md)
