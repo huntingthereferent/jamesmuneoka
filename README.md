@@ -6,7 +6,7 @@ Find what is actually there. Trace what changes. Separate observation from assum
 
 ![A working sequence: investigate the actual system, build a bounded tool, verify against observed results.](assets/working-practice.svg)
 
-**[Selected work](SELECTED_WORK.md)** · **[Capabilities](ABILITY.md)** · **[Working with me](WORK_WITH_ME.md)** · [Research](RESEARCH.md) · [Opinions](OPINIONS.md)
+**[Selected work](SELECTED_WORK.md)** · **[Capabilities](ABILITY.md)** · **[Working with me](WORK_WITH_ME.md)** · [Projects](PROJECTS.md) · [Research](RESEARCH.md) · [Opinions](OPINIONS.md)
 
 ---
 
