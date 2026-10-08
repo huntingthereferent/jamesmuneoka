@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="218" viewBox="0 0 1080 218" role="img" aria-labelledby="title desc">
+  <title id="title">Research, engineering, verification</title>
+  <desc id="desc">Three connected stages: investigate the real system, build a bounded tool, verify against what actually happened.</desc>
+  <rect width="1080" height="218" rx="18" fill="#101a24"/>
+  <path d="M34 37H1046 M34 181H1046" stroke="#304050" stroke-width="1"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="30" font-size="13" letter-spacing="2.5" fill="#8eabb5">JAMES MUNEOKA  /  WORKING PRACTICE</text>
+    <path d="M140 94H921" stroke="#425967" stroke-width="2"/>
+    <g fill="#101a24" stroke="#78cdbb" stroke-width="3">
+      <circle cx="160" cy="94" r="8"/><circle cx="541" cy="94" r="8"/><circle cx="920" cy="94" r="8"/>
+    </g>
+    <g font-size="25" font-weight="bold" fill="#e4edf3">
+      <text x="42" y="140">Investigate</text>
+      <text x="423" y="140">Build</text>
+      <text x="802" y="140">Verify</text>
+    </g>
+    <g font-size="15" fill="#afc1cd">
+      <text x="42" y="164">Find the actual structure</text>
+      <text x="423" y="164">Make it testable and useful</text>
+      <text x="802" y="164">Compare against reality</text>
+    </g>
+    <text x="42" y="202" font-size="12" fill="#8eabb5">Evidence remains attached to the work.</text>
+  </g>
+</svg>
