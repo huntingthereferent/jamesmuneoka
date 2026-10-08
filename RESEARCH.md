@@ -6,6 +6,14 @@ That means entering a system before its shape is clean, finding what is actually
 
 The research is built from working code, bounded experiments, traces, state captures, counterexamples, and reproducible tests.
 
+## Research with measured outcomes
+
+Recent interactive-system experiments tested movement and constraint rules in native ARC-AGI-3 environments: SK48 (8/8), LS20 (7/7), and FT09 (6/6), with repeated fresh replays. A specialized FT09 visual agent read rendered state, derived color constraints, chose clicks, and compared predicted with returned frames. It was also tested off the original action trajectory.
+
+Those are **local, environment-specific results**. They do not establish a competition ranking, public deployment, or generalization to unseen environments. The exact outcomes and limits are in [Selected work](SELECTED_WORK.md).
+
+The same kind of question appears when a data record changes shape between services or an integration behaves differently from its documentation: what actually moved, what survived, and what evidence would distinguish the possibilities?
+
 ## Questions
 
 - What is the system actually doing?
