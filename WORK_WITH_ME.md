@@ -1,37 +1,33 @@
 # Working with me
 
-A technical problem is easier to scope when the current system and the expected result are named plainly.
+I take on bounded technical problems where the real system can be inspected and the result can be checked. Investigation, implementation, and verification can be one assignment; they do not need separate speeches.
 
-## Work I take on
+## Problems worth sending
 
-**Investigate and repair.** Reproduce a failure in an existing script, application, data pipeline, API integration, or workflow. Find where actual behavior stops matching expected behavior; document the boundary and fix what the evidence supports.
+**Something is failing.** A Python tool, API integration, workflow, existing app, data pipeline, or repository process does not behave as expected. Supply the error, relevant files or inputs, and what should have happened.
 
-**Build a bounded tool.** Python automation, a data converter, validator, inspector, reconciliation utility, or small application that replaces an error-prone manual step.
+**Something repeats by hand.** Data arrives in inconsistent formats; files need reconciliation; a routine needs a validator, converter, collector, or focused automation.
 
-**Evaluate systems and agents.** Build reproducible tests for stateful behavior, tool use, transformations, external integrations, and recovery paths. Distinguish a convincing demo from a result the real environment confirms.
+**Something claims to work but is difficult to prove.** An agent, interface, or integration needs acceptance tests that exercise actual state changes instead of relying only on mocked outcomes.
 
-**Connect data and systems.** Work with CSV/Excel, public APIs, structured data, existing code, and persistent records. Preserve input context and identify what changed during transformation.
+**Something needs a bounded implementation.** A small service, research instrument, application component, or local tool with explicit inputs, outputs, and stop conditions.
 
-## How a piece of work starts
+## A usable starting point
 
-| Establish | Needed |
+| Establish | Bring or define |
 | --- | --- |
-| Current system | Code, sample file, endpoint, screenshots, or a reproducible description |
-| Expected behavior | What the result needs to accomplish |
-| Actual behavior | What happens instead, with errors or a sample if available |
-| Constraints | Access, safety, data sensitivity, runtime, deadline, and delivery format |
-| Done means | A test, example, or acceptance condition that can be checked |
+| Native surface | Repository, input file, endpoint, screen, log, process or accessible test environment |
+| Current behavior | What is actually happening |
+| Required result | A testable outcome, not just a technology preference |
+| Constraints | Permissions, privacy, runtime, deadline, budget, output format |
+| Completion witness | How both sides will know the work was done |
 
-## What I hand back
+A missing detail can be an investigation target. It doesn't have to be invented to make a proposal sound finished.
 
-A working artifact where the problem permits one, with the original and transformed inputs identified, setup or usage instructions, test results, remaining limitations, and the next unresolved edge if work is incomplete.
+## Handoff
 
-Direct, written communication. The evidence matters more than polished status updates.
+The artifact and instructions are only one part. A useful handoff identifies original and transformed inputs, reproduction steps, tests that passed, tests that failed, unverified dependencies, and the next boundary if completion wasn't earned.
 
-## Current direction
+Communication is direct and primarily written. Scope changes should be tied to observed conditions.
 
-Independent technical research and paid project work across systems, data, automation, agent evaluation, and software troubleshooting. Longer-term builds move toward complete, monitored software/data systems and their physical or measurement interfaces as the underlying work supports them.
-
-Claims about shipped systems, clients, production operations, or outcomes are made only when there is evidence for them.
-
-See [Selected work](SELECTED_WORK.md) and [Capabilities](ABILITY.md).
+[Current technical range](ABILITY.md) · [Measured cases](SELECTED_WORK.md) · [Profile](README.md)

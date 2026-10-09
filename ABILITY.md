@@ -1,32 +1,30 @@
-# Capabilities
+# Technical range
 
-Ability is demonstrated through what a system, test, or tool can actually do—not a list of job titles.
+A skill list tells you what somebody has encountered. An evidence record tells you **what survived a test**. Both are useful, but they are not interchangeable.
 
-## Working range
+## Current practice
 
-| Capability | Work | Witness |
+| Surface | Work undertaken | What a handoff should contain |
 | --- | --- | --- |
-| **Unknown-system investigation** | Recover rules and dependencies, locate where an expectation breaks. | Probe, state trace, counterexample |
-| **Tool building** | Python utilities, validators, converters, and focused application components. | Source, input/output example, acceptance test |
-| **Data and reconciliation** | Move and match records across formats, identify inconsistencies, preserve ancestry. | Before/after data and verification |
-| **Agent and software evaluation** | Test tool actions, stateful behavior, predictions, recovery, and failed assumptions. | Native replay and regression tests |
-| **Integrations** | Work with existing code, filesystems, HTTP, APIs, repositories, and browser workflows. | Real-boundary tests |
-| **Technical handoff** | Return the artifact, relevant state, evidence, and unresolved limits. | Recoverable instructions and test records |
+| **Unknown behavior** | Recover state, action rules, hidden dependencies, and failure conditions from a live system. | Reproduction steps, a working hypothesis, counterexamples and a bounded next test |
+| **Stateful agents** | Examine proposed actions, actual tool execution, returned state, replay and recovery. | Before/action/after trace, acceptance conditions, and refusal-to-claim boundaries |
+| **Data / structured inputs** | Inspect, transform, reconcile, validate and track records across formats. | Original and transformed artifacts, record lineage, discrepancy report, tests |
+| **Software / automation** | Build Python tools, adapters, validators and focused workflow components. | Source, setup, a real input/output example, runtime verification |
+| **Real integrations** | Work across files, repositories, HTTP, APIs, browsers and local processes. | Contract and real-boundary checks; what fails when a dependency disappears |
+| **Research communication** | Convert an unclear system into claims that can be challenged. | Evidence, counterexamples, explicit unknowns and a reproducible next question |
 
-## Demonstrated research
+## Measured depth
 
-ARC-AGI-3 local experiments recovered collision rules, geometry, move budgets, launcher paths, cyclic switches, and click-driven color constraints. SK48, LS20, and FT09 reached full local wins with fresh replay verification. A specialized FT09 agent chose clicks from rendered frames and checked observed outcomes against predictions.
+Local ARC interactive environments: **SK48 8/8**, **LS20 7/7**, **FT09 6/6**, with recorded full-game replay tests and off-trajectory FT09 testing. A separate **Qwen 3 4B** canary executed one model-selected native source read through the existing Continuity evaluator and retained a matching file hash.
 
-These are **verified public-game experiments**, not evidence of a general-purpose competition-winning agent. Details and limitations: [Selected work](SELECTED_WORK.md).
+These are environment- or step-specific results, **not a blanket claim of general intelligence, general autonomous software delivery, or public production operations**. See [case records](SELECTED_WORK.md).
 
-Other technical research spans source inspection, structured data, HTTP, runtimes, repositories, and evidence-preserving workflow design. Larger source archives remain private.
+## Building toward
 
-## Engineering direction
+Complete data/service stacks: Python ingestion, structured data, record reconciliation, PostgreSQL, FastAPI, interfaces, Docker, CI, deployment and monitoring. Physical/measurement boundaries and fabrication-oriented workflows are further research interests rather than implied delivered client work.
 
-Python, structured data and CSV/Excel workflows, APIs, automated tests, state models, and tool construction are current practical areas.
+## How competence is established
 
-A complete public-data application—Python ingestion, reconciliation, PostgreSQL, FastAPI, web UI, Docker, CI, deployment, monitoring—is a **build direction**, not a blanket claim that every production component has already shipped.
+Start with native input, write down what completion would mean, exercise the actual boundary, retain results, then revise only what the evidence permits. Where a dependency cannot be observed, keep it as a named unresolved condition.
 
-The same method applies to repairing an existing workflow, building a bounded utility, and developing an end-to-end service. Evidence grows with what is actually delivered.
-
-[Working with me](WORK_WITH_ME.md) · [Research](RESEARCH.md) · [Projects](PROJECTS.md)
+[Case records](SELECTED_WORK.md) · [Research](RESEARCH.md) · [Working with me](WORK_WITH_ME.md)

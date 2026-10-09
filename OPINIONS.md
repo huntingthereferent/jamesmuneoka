@@ -1,95 +1,49 @@
-# Opinions
+# Working positions
 
-These are current technical positions.
+These are positions I use to make engineering decisions. They are not laws. A contradictory witness should change the position.
 
-They are here to be tested.
+### A convincing result is not necessarily an executed result
 
-## Evidence should constrain confidence
+A model can describe a correct action while the tool never runs. A UI can show a state that the backend never reached. A passing mock can hide a broken real connection.
 
-A clean explanation is not the same thing as a demonstrated result.
+**Test:** preserve the native action and returned result. If that boundary is missing, don't promote the claim.
 
-Confidence should not move farther than the evidence.
+### The first false assumption matters more than the prettiest explanation
 
-## Unknown is a valid technical state
+An unfamiliar system is easiest to misunderstand when a convenient representation begins standing in for the whole state.
 
-Missing evidence is not a blank that needs to be filled.
+**Test:** change the environment, not just the wording of the theory. Find a case where the model should make a different prediction.
 
-Sometimes the correct state is still unknown.
+### A local win has a local scope
 
-Keep it unknown until something earns the next move.
+Finishing known games is useful evidence of rule recovery, but not evidence that the same policy handles unseen games. Getting one generative tool step right is not proof of autonomous task completion.
 
-## Real integrations need real-system tests
+**Test:** fresh starts, changed trajectories, unseen conditions, and explicit failure cases.
 
-Mocks can prove isolated behavior.
+### Interfaces should carry their source context
 
-They cannot prove that an API, browser, filesystem, repository, feed, deployment target, or user workflow actually works.
+If a feed, database record, file, or agent message is transformed, the result should still have enough ancestry to recover what it came from and which parts were inferred.
 
-If the boundary matters, test the boundary.
+**Test:** follow the output back to the actual source, not merely to a friendly summary.
 
-## Failed experiments belong in the record
+### Unknown is a result, not a writing defect
 
-A failed branch can remove a possibility, expose a hidden dependency, break an assumption, or show that the boundary was wrong.
+When a dependency, evidence source, or action boundary is missing, filling the gap with confident language makes the system worse.
 
-That is progress.
+**Test:** leave the missing condition visible and name the next observation that could resolve it.
 
-## Small proofs beat large speculative architecture
+### Building a system can be a research experiment
 
-When the difficult part is still uncertain, more infrastructure can hide the problem.
+Some questions are only exposed by making the parts communicate. But a completed diagram is not a completed integration.
 
-Prove the hard part where it can fail clearly.
+**Test:** cross the real boundary, inspect the returned behavior, and keep what failed.
 
-Then build around what survived.
+### Reuse should preserve the parts that differ
 
-## Provenance is part of system quality
+A useful method can cross games, data, automation, and software without pretending that their native states are the same.
 
-A result should carry enough ancestry to answer:
+**Test:** name what the method preserves in the new domain. When that relation breaks, stop generalizing.
 
-- where did this come from?
-- what changed it?
-- what evidence supported that change?
+---
 
-Observability is not only metrics.
-
-It is also lineage.
-
-## Representation is not reality
-
-The same state can look different in code, files, APIs, databases, and interfaces.
-
-Different representation does not automatically mean different meaning.
-
-## Automation should preserve context
-
-Making an action happen is the easy part.
-
-The useful part is keeping enough context that the next action still makes sense.
-
-## Tools should reduce translation cost
-
-A person should not have to keep translating the problem into the tool's vocabulary.
-
-The tool should meet the problem closer to where it already exists.
-
-## Existing systems should keep their native meaning
-
-Integration does not require flattening everything into one universal shape.
-
-Local structure can stay local while the useful relations between systems are preserved.
-
-## Research and engineering belong in the same loop
-
-Some questions do not exist until the system is built.
-
-Some implementations do not become clear until they are treated like experiments.
-
-Separate them too early and both get weaker.
-
-## Repositories should make one understandable claim
-
-A larger body of work can stay connected without making every project explain everything.
-
-Each repository should have a job a stranger can understand.
-
-## Positions move when the evidence moves
-
-If a better experiment, implementation, or counterexample breaks one of these positions, change the position.
+[Research notebook](RESEARCH.md) · [Case records](SELECTED_WORK.md) · [Back to profile](README.md)

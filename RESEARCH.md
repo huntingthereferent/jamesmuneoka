@@ -1,149 +1,69 @@
-# Research
+# Research notebook
 
-The interesting problems are usually the ones where the category is not obvious yet.
+The object of study is often a system whose rules are **not available at the level where the work begins**.
 
-That means entering a system before its shape is clean, finding what is actually present, and recovering enough structure to make the next valid move.
+That may be a game returning frames, a program with inconsistent runtime behavior, an API that changes shape, a repository with competing versions, or an agent reporting success without performing the action. The first job is to recover enough of the native structure to ask a question that can actually fail.
 
-The research is built from working code, bounded experiments, traces, state captures, counterexamples, and reproducible tests.
+## 01 / State before interpretation
 
-## Research with measured outcomes
-
-Recent interactive-system experiments tested movement and constraint rules in native ARC-AGI-3 environments: SK48 (8/8), LS20 (7/7), and FT09 (6/6), with repeated fresh replays. A specialized FT09 visual agent read rendered state, derived color constraints, chose clicks, and compared predicted with returned frames. It was also tested off the original action trajectory.
-
-Those are **local, environment-specific results**. They do not establish a competition ranking, public deployment, or generalization to unseen environments. The exact outcomes and limits are in [Selected work](SELECTED_WORK.md).
-
-The same kind of question appears when a data record changes shape between services or an integration behaves differently from its documentation: what actually moved, what survived, and what evidence would distinguish the possibilities?
-
-## Questions
-
-- What is the system actually doing?
-- Which parts are state, representation, interface, or interpretation?
-- Where does the expected path stop matching the observed one?
-- Which difference changes meaning and which one only changes form?
-- What has to survive when information moves between tools or layers?
-- How much can be compressed before the evidence is no longer recoverable?
-- Can a process keep moving without filling missing evidence with invention?
-- What survives when a method moves into a different domain?
-
-## Unknown-system tracing
-
-Start with the current state.
-
-Change one thing.
-
-Watch what moves.
-
-Trace the dependency until the first unsupported jump appears.
-
-That pattern has been used across repositories, filesystems, APIs, structured data, runtimes, browser surfaces, command-line tools, and external services.
-
-## Evidence and provenance
-
-A result is stronger when its ancestry is still reachable.
-
-Useful provenance can include:
-
-- source evidence
-- state transitions
-- timestamps
-- transformation history
-- test outcomes
-- decision records
-- failure traces
-- cross-layer handoffs
-
-The goal is not to preserve everything forever.
-
-The goal is to preserve enough that the movement can still be inspected.
-
-## Agent and reasoning evaluation
-
-Bounded environments make reasoning failures visible.
-
-The useful trace is:
+An observation is not yet a rule. For a stateful environment, the useful evidence unit is:
 
 ```text
-observed
-→ predicted
-→ contradicted or supported
-→ retained or revised
-→ next move
+observed state  →  permitted action  →  returned state
+            prediction ↗      ↘ discrepancy
 ```
 
-A final score is not enough by itself.
+The returned whole state is the witness. Features—hashes, counts, bounding boxes, source tags, summaries—can help find relations, but a convenient projection should not silently replace what the environment actually returned.
 
-The path matters because that is where unsupported assumptions, false confidence, recovery, and actual rule discovery become visible.
+In the ARC investigations, this meant distinguishing a visual pattern from an earned action rule, then checking the rule under fresh replay and deliberately changed action histories.
 
-## Representation and reconciliation
+## 02 / Recovering unknown specifications
 
-The same thing can appear differently depending on where it is observed.
+A practical sequence:
 
-Examples:
+1. Identify the current referent and the controls available at its native interface.
+2. Separate observed, supplied and assumed conditions.
+3. Change one bounded relation and capture the returned whole state.
+4. Test whether the model predicts a second case, rather than merely describing the first.
+5. Preserve a breaking case. Narrow the model or move to the missing boundary.
 
-- code vs runtime behavior
-- file vs parsed structure
-- API response vs UI
-- source record vs reconciled record
-- current state vs historical state
+A failed candidate that eliminates an interpretation is useful; a neat explanation that cannot predict anything is not.
 
-The job is to separate meaningful change from representational change.
+## 03 / What transfers across unlike systems
 
-## Applied systems research
+The same tracing discipline has been applied to interactive environments, code/runtimes, repository state, files and structured records, HTTP/API surfaces, and software interfaces.
 
-Full systems are useful research instruments.
+The native structures are **not** declared equivalent. Transfer is earned at the relationship that can actually be tested. The underlying task may change from navigation to reconciliation, data transformation, automation, or controlled construction.
 
-A public-data application can expose questions about identity, ingestion, reconciliation, failure semantics, recovery, observability, and provenance that do not appear in a toy example.
+**Current construction question:** Can tested constraints and relations generate candidate environments that the same evaluator can inspect? Inverse-category expansion has evidence in the particular ARC investigations; a general world-construction operation remains a **mathematical proposal requiring its own tests**. No general maze-generation success is claimed here.
 
-Building the system is part of finding the question.
+## 04 / Agents: claimed movement versus executed movement
 
-## Research movement
+Agent output is easy to mistake for action. The record must distinguish:
 
-```text
-establish current state
-→ separate observed / supplied / assumed
-→ identify the unresolved edge
-→ form the smallest testable model
-→ build or probe
-→ compare expected vs observed
-→ preserve evidence
-→ revise only what the evidence requires
-→ continue
-```
+| Layer | Required distinction |
+| --- | --- |
+| Proposed | What did the model recommend? |
+| Authorized | Was that action within the allowed interface? |
+| Executed | Did a tool or environment actually perform it? |
+| Returned | What native state or artifact came back? |
+| Evaluated | What is supported, contradicted, or still unknown? |
 
-## Evidence
+A recent local Qwen canary verified **one** model-proposed repository read inside an existing evaluator, including the returned file hash. It did not write code or finish the agent's queued tasks. [Case record](SELECTED_WORK.md#02--local-generative-agent-canary).
 
-Depending on the problem:
+## 05 / Provenance without turning research into paperwork
 
-- reproducible tests
-- source code
-- logs
-- screenshots or browser witnesses
-- structured records
-- API responses
-- file diffs
-- runtime events
-- state snapshots
-- external documentation
-- counterexamples
-- repeated successful predictions
+Keep the minimum information necessary to reconstruct what a result depended on: native source locator, earlier state, action or transformation, actual output, tests and failure records, and any unresolved conditions. The aim is replayable reasoning, not maximal logging.
 
-Confidence should not outrun the evidence.
+A summary is an index into evidence. It is not the evidence itself.
 
-## Research identity
+## Questions still open
 
-The recurring work is some combination of:
+- Which state relations survive a change of representation?
+- How does an agent discover a dependency it cannot yet observe?
+- When can successful local rules be promoted beyond one environment?
+- What is the smallest interface that exposes autonomous failure clearly?
+- Can construction generate useful candidates without smuggling in their solution?
+- What data must survive when work crosses independent systems?
 
-- specification recovery
-- failure localization
-- recursive decomposition
-- system-boundary analysis
-- representation translation
-- constraint-preserving transformation
-- reconciliation
-- provenance engineering
-- tool construction
-- cross-domain transfer
-
-The common thread is simple:
-
-recover enough structure to move without losing why the move was valid.
+[Selected investigations](SELECTED_WORK.md) · [Evidence status](PROVENANCE.md) · [Working method](docs/RESEARCH_METHOD.md)

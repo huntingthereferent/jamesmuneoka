@@ -1,74 +1,32 @@
-# Research Method
+# Research method / operational notes
 
-The working loop is evidence-first.
+This is a procedure for producing challengeable results, not a universal algorithm that already solves every class of problem.
 
-```text
-problem
-→ observe the real system
-→ record the current state
-→ separate observed / supplied / assumed
-→ identify the smallest useful question
-→ form a testable model
-→ build the smallest useful implementation
-→ test against real or bounded evidence
-→ compare expected and observed behavior
-→ keep what survives
-→ continue
-```
+## The witness
 
-## Start from the real thing
+For interactive work, keep a native `state → permitted action → returned state` triple. For data work, keep original record → transformation → resulting record. For software, retain the input, executed process, output, failure and environment constraints.
 
-Use actual APIs, repositories, files, runtime behavior, web surfaces, and user workflows whenever the boundary itself matters.
+The evidence-bearing object changes by domain. It is not automatically a hash, a summary, or a favorite internal representation.
 
-Mocks are useful for isolated behavior.
+## Admission sequence
 
-They are not proof that the real integration works.
+1. **Locate the referent.** What is the actual system and native observation?
+2. **Separate claims.** Observed, supplied, inferred, proposed, and unknown must not collapse.
+3. **Find the smallest valid intervention.** It should distinguish at least two possible models.
+4. **Predict before running.** State what should change or survive.
+5. **Execute against the real boundary** when permitted; use a mock only for the part it actually tests.
+6. **Compare returned evidence.** Capture a counterexample rather than smoothing it away.
+7. **Promote narrowly.** A passing test means what it tested, under the conditions it tested.
+8. **Preserve the next edge.** State what is still missing and what would count as its resolution.
 
-## Keep evidence separate from interpretation
+## Navigation and construction are different requests
 
-What happened and what it means are different layers.
+Inspecting an existing structure usually calls for navigation, comparison, and evidence recovery. Generating alternative structures calls for a construction direction using tested constraints.
 
-Logs, traces, state snapshots, test results, and reproducible examples should survive independently of the interpretation built around them.
+Construction is **conditional**, not an expensive automatic inverse at every step. Candidate worlds or simulations must return to the same evaluator. The general construction theory is under investigation; the existence of a candidate is not proof that its rules or solution are valid.
 
-## Make failures useful
+## Outputs
 
-Keep a failed experiment when it narrows the problem.
+A reproducible observation, narrow tool, state-transition trace, regression test, counterexample, or an explicit unresolved boundary. When the work is not finished, say so.
 
-A failure can establish:
-
-- an assumption was wrong
-- an interface is insufficient
-- a dependency is missing
-- a model does not generalize
-- a boundary was drawn in the wrong place
-
-That is useful output.
-
-## Prove the hard part small
-
-Before adding a large framework, isolate the difficult part in the smallest environment where it can actually fail.
-
-Do not use architecture to hide uncertainty.
-
-## Preserve provenance
-
-When a result depends on an external source, prior state, experiment, or transformation, enough ancestry should survive to reconstruct why the result exists.
-
-Not maximal logging.
-
-Enough to inspect the movement.
-
-## Promote only what survives
-
-A pattern becomes reusable after repeated use or testing.
-
-Temporary discoveries stay local.
-
-Stable discoveries can become:
-
-- tests
-- utilities
-- protocols
-- documentation
-- reusable components
-- project-level rules
+[Research notebook](../RESEARCH.md) · [Evidence status](../PROVENANCE.md)

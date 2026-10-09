@@ -1,29 +1,43 @@
-# Project map
+# Projects and research surfaces
 
-Each project has a distinct job. A reader should not need to understand the whole research program to understand one piece of work.
+The projects are not interchangeable. Each has a different native purpose, evidence standard, and publication boundary.
 
-| Project | What it is for | Evidence and access |
-| --- | --- | --- |
-| **Continuity / Language Network** | Application and runtime work spanning task handoffs, external information, source tracing, education workflows, and systems integration. | Active development; private repository |
-| **Eggy** | Experiments across files, HTTP, repositories, runtimes, browser surfaces, and earlier technical branches. | Research archive; private repository |
-| **Axioms** | Test small foundational rules without importing surrounding architecture. | Research kernel; private repository |
-| **Interactive-agent experiments** | Discover action rules and test stateful environments through predictions, counterexamples, and replays. | Local results verified; source/test bundles not yet public |
-| **Public-data monitoring application** | Python ingestion, validation/reconciliation, persistence, API, web interface, deployment and monitoring. | End-to-end build direction, not a shipped product |
+## Continuity / cross-system runtime
 
-## Selected verified work
+**Active development · private repository**
 
-In local ARC-AGI-3 experiments, SK48 completed 8/8 levels in 280 actions, LS20 completed 7/7 in 309, and FT09 completed 6/6 in 75. Independent replays confirmed each full game; the local SDK reported game scores of 100.0. See [Selected work](SELECTED_WORK.md) for what those tests mean—and what they do not prove.
+Bounded agent/human handoffs, task and calendar workflows, external source feeds, trace ancestry, evidence-preserving presentation, and local model evaluation. The point is to move between unlike systems while letting each retain its own state and meaning.
 
-## Shared engineering method
+**What has been observed:** local components and workflows tested; one Qwen source-read canary tied to the existing evaluator. **Not established:** production deployment, a generally autonomous implementation agent, or complete integration of every listed system.
 
-Establish the state. Find the relation that matters. Run a bounded test or implementation. Compare what happened with what was predicted. Preserve the evidence and revise the model where it broke.
+## Interactive-environment research
 
-That movement is reusable without treating unlike systems as identical.
+**Measured local experiments · implementation not yet public here**
 
-## Public visibility
+Unknown-rule discovery in ARC-AGI-3 environments. Native state/action experiments, predictions, fresh replay and off-trajectory tests. SK48 **8/8**, LS20 **7/7**, FT09 **6/6** were recorded as full local game completions.
 
-Continuity, Eggy, and Axioms are currently **private repositories**. This public map names their roles without presenting inaccessible URLs as publicly inspectable projects. Public source and reproducible case studies should be linked here when they actually exist.
+[Cases and their limits →](SELECTED_WORK.md#01--interactive-environments)
 
-**Next:** paid technical problem-solving, concrete public tools and case studies, then larger tested integrations as their components are demonstrated.
+## Axioms
 
-[Profile](README.md) · [Capabilities](ABILITY.md) · [Working with me](WORK_WITH_ME.md)
+**Private research kernel**
+
+Small foundational rules tested without dragging an entire application architecture into the experiment. The question is whether a relation survives in a minimal, inspectable form.
+
+## Eggy
+
+**Private experimental archive**
+
+Earlier investigations through file structures, runtimes, HTTP, repositories, browser interfaces, and technical boundary tests. Historical evidence stays historical; it does not automatically prove the current system.
+
+## Complete public-data service
+
+**Build direction · not shipped**
+
+Ingestion, validation, reconciliation, database, API, interface, deployment, and monitoring as one testable chain. The purpose is to see whether native records and failure semantics survive end-to-end.
+
+---
+
+Each public link here is a real document in this repository. The larger research and application codebases remain private; their descriptions do not imply open-source access.
+
+[Profile](README.md) · [Case records](SELECTED_WORK.md) · [Working with me](WORK_WITH_ME.md)

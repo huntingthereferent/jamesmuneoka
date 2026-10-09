@@ -1,49 +1,63 @@
-# Selected work
+# Selected work / case records
 
-Technical work is more useful when the claims, the test, and the limits are visible together.
+Each case keeps the **question, intervention, returned result, and unresolved boundary** together. A recorded local result is not silently promoted into a public reproduction or a general capability claim.
 
-This page distinguishes **measured local results**, **active development**, and **next builds**. The working source for some projects is private; a private repository is not presented here as public proof.
+## 01 / Interactive environments
 
-## Interactive environments — agent evaluation and state recovery
+**Referent:** native ARC-AGI-3 games. **Status:** measured local outcomes, October 2026; full source/test bundles are not public here.
 
-**Status:** Measured in local ARC-AGI-3 environments, October 2026. Research/test artifacts are not yet published in this repository.
+The challenge was an unfamiliar interactive environment whose useful specification had to be recovered from what actions actually changed. Investigation proceeded from native state captures and bounded experiments, then tested predictions against the next returned state. Failed hypotheses stayed in the record rather than being converted into a story of uninterrupted success.
 
-An unfamiliar interface does not begin with a trustworthy instruction manual. I inspect which actions change the observable state, compare predictions with the next observation, and keep counterexamples when the model breaks.
-
-| Environment | Verified local result | What the work tested |
+| Game | Recorded full-game result | Distinguishing investigation |
 | --- | --- | --- |
-| SK48 | 8/8 levels, 280 actions; two fresh-game winning replays | State compression, moving structures, collision rules, controller switching |
-| LS20 | 7/7 levels, 309 actions; two fresh-game winning replays | Route recovery, move budgets, pickups, launchers, moving switches |
-| FT09 | 6/6 levels, 75 actions; two fresh visual-agent winning runs | Pixel-decoded controls, color constraints, click effects, re-planning |
+| **SK48** | 8/8 levels; 280 actions; two fresh winning replays | Moving structures, collision rules, controller switching, state compression |
+| **LS20** | 7/7 levels; 309 actions; two fresh winning replays | Route recovery, move budget, pickups, launchers, moving switches |
+| **FT09** | 6/6 levels; 75 actions; two fresh visual-agent winning runs | Frame-derived controls, color constraints, click prediction, replanning |
 
-The local SDK reported a 100.0 game score for each of these runs. **These are individual public-game results, not an ARC Prize competition score or a claim of general agent performance.**
+The local SDK reported a **100.0 game score** on each completed run. FT09 was additionally tested after an extra exploratory action per level: two fresh runs still completed in **81** and **76** actions. Its policy also declined **nine unrelated public-game observations** rather than pretending to know them.
 
-The FT09 visual policy was also tested after an extra exploratory action on each level: two fresh runs still won, in 81 and 76 actions. It correctly declined nine unrelated public game observations. The working policy used rendered frames during execution; earlier investigation was source-assisted. That distinction matters.
+**What the evidence supports:** these specific local interactive tasks were completed and replayed under the stated conditions.
 
-**What survives:** observable change, state, constraints, predicted-versus-actual outcomes, useful failed experiments, and reproducible tests. The implementation changes by environment.
+**What it does not support:** an ARC Prize leaderboard result, an unseen-game generalization rate, or a broadly capable autonomous agent. FT09's execution used rendered frames; earlier investigation was source-assisted. Those are different evidence conditions.
 
-**Evidence access:** The replay and test records are currently in local research archives. This page records measured outcomes, but does not substitute for public source code. Publication and reproducibility packaging are separate work.
+**Witness status:** summaries of local replays; the underlying game traces, tool outputs, and implementation are not published in this repository. [Provenance index](PROVENANCE.md#arc-native-game-experiments).
 
-## Continuity and cross-system applications
+## 02 / Local generative agent canary
 
-**Status:** Ongoing development; source repository private.
+**Referent:** existing Continuity agent evaluator, with local Qwen 3 4B inference. **Status:** observed single tool movement, October 8, 2026.
 
-A shared runtime for passing bounded work between systems while keeping each system's local meaning intact. Areas under development include human/agent handoffs, event history, task and calendar workflows, public-data feeds, education workflows, and traceable research outputs.
+The question was whether a generative model could supply an actual next movement **inside the existing evaluation lineage**, rather than producing a plan in a separate chat.
 
-This work crosses data formats, interfaces, persistent state, and execution boundaries. Architectural descriptions are not production deployment claims.
+- **Proposal:** model returned `MOVE` and selected a whitelisted native source, `runtime/http/index.html`.
+- **Execution:** evaluator performed the permitted repository read.
+- **Returned evidence:** SHA-256 `1755cc2e0613381a3f004ca46595aa13b12962ddd15e39499823b7d8af4caf9f`, independently matched against the file at the time.
+- **Performance:** 54.453 s for the agent-context observation on CPU; 8.87 s for a short standalone JSON inference (approximately 9.86 generated tokens/s in that shorter run).
+- **Boundary:** the original task list stayed `READY`. No code modification, autonomous build, or task completion was demonstrated.
 
-## Experimental systems research
+**What the result proves:** model inference can propose a source, the native evaluator can execute a bounded read, and an evidence record can return to the same lineage.
 
-**Status:** Private research archives.
+**What it does not prove:** reliable long-running autonomy or a completed end-to-end construction loop.
 
-Smaller experiments trace specification gaps and state transitions across code, filesystems, repositories, HTTP, command-line tools, and browser surfaces. The point is to reduce a large unknown into a testable difference and keep enough evidence to repeat it.
+**Witness status:** local runtime observation and matching hash; source and journal remain private. [Provenance index](PROVENANCE.md#local-qwen--continuity-canary).
 
-## Currently building toward
+## 03 / Continuity and cross-system work
 
-**Status:** Work direction, not a claim of a finished production deployment.
+**Referent:** one runtime spanning task flows, agent handoffs, external information, traceable movement, and linked local systems. **Status:** active private development.
 
-A complete public-data monitoring application: Python ingestion, source validation, record reconciliation, PostgreSQL, FastAPI, a usable web interface, Docker/CI, deployment, and monitoring. Each boundary needs an end-to-end test rather than a box on a stack diagram.
+The engineering problem is preserving system-specific state while allowing a shared workflow to move between boundaries. A source feed is not the same as a task journal; an agent's proposed move is not a verified completion; an interface displaying something is not evidence that the backend performed it.
 
-The next public work examples should show the actual input, failure or requirement, implementation, test, and usable output.
+Current work includes task and source tracing, handoff states, feed projection, evidence-preserving grouping, and local evaluator integration. These are **development and test activities**, not independent proof of production readiness.
 
-See [Capabilities](ABILITY.md), [Research](RESEARCH.md), and [Working with me](WORK_WITH_ME.md).
+**Next validation:** more real-system boundary tests, action/recovery checks, and independently inspectable case artifacts. [Project map](PROJECTS.md).
+
+## 04 / End-to-end public-data application
+
+**Referent:** planned complete application, **not yet a shipped project**.
+
+The target stack is ingestion, validation/reconciliation, PostgreSQL, FastAPI, usable UI, containerization/CI, deployment, and observability. The useful question is whether records, failures, and provenance survive each handoff—not whether a diagram can name each technology.
+
+Future evidence must include an actual running system, reproducible input/output, end-to-end acceptance checks, and operational boundaries.
+
+---
+
+[Research notebook](RESEARCH.md) · [What I can deliver](WORK_WITH_ME.md) · [Back to profile](README.md)

@@ -1,64 +1,67 @@
 # James Muneoka
 
-**Independent Technical Researcher · Systems / Data / Automation · Software Builder**
+**Systems research · Interactive environments · Agent evaluation · Applied software**
 
-Find what is actually there. Trace what changes. Separate observation from assumption. Build the smallest thing that can test the problem. Keep the evidence.
+I investigate systems that do not come with a reliable specification. The work starts with actual state and behavior, not a description of what the system ought to do. From there: recover the rule, find where it fails, build the instrument, and retain the evidence.
 
-![A working sequence: investigate the actual system, build a bounded tool, verify against observed results.](assets/working-practice.svg)
+![Three current research surfaces: native interactive environments, cross-system runtime behavior, and model-directed tool use.](assets/working-practice.svg)
 
-**[Selected work](SELECTED_WORK.md)** · **[Capabilities](ABILITY.md)** · **[Working with me](WORK_WITH_ME.md)** · [Projects](PROJECTS.md) · [Research](RESEARCH.md) · [Opinions](OPINIONS.md)
-
----
-
-## What I do
-
-| Research and investigation | Software and data | Verification and agents |
-| --- | --- | --- |
-| Recover what an unfamiliar system actually does. Locate the first unsupported assumption. | Build Python tools, data transformations, integrations, validators, and bounded applications. | Test real state changes, agent actions, failure recovery, and expected-versus-observed behavior. |
-| **Output:** a reproducible finding or smaller testable question. | **Output:** a usable artifact with inputs and handoff instructions. | **Output:** a test trace, a correction, or an explicit unresolved boundary. |
-
-A problem can move through all three. The work should still make sense to someone who never saw the investigation.
-
-## Selected work
-
-| Work | What was tested or built | Evidence status |
-| --- | --- | --- |
-| **ARC interactive-system research** | Completed SK48 (8/8), LS20 (7/7), and FT09 (6/6) in local tests. Built a frame-driven FT09 policy that verified its own predicted clicks. | **Local replay/agent tests**; implementation not yet public |
-| **Continuity / cross-system runtime** | State and evidence-preserving handoffs, traceability, task flows, external feeds, and integration boundaries. | **Ongoing**; development repository private |
-| **Unknown-system experiments** | Focused investigations of runtimes, files, repositories, HTTP, and state transitions; retained counterexamples and test witnesses. | **Research archive private** |
-
-[Read the results and their limits →](SELECTED_WORK.md)
-
-## Work I can take on
-
-- **Debug a system:** inspect existing code or a workflow, reproduce the break, isolate the cause, and test a repair.
-- **Make messy data usable:** transform, validate, reconcile, or automate CSV/Excel files, API records, and repeated steps.
-- **Build and test a tool:** a Python utility, data integration, workflow aid, small application, or agent-evaluation harness.
-
-The starting point is the actual input and the needed output, not a long discovery pitch. [How I scope and deliver work →](WORK_WITH_ME.md)
-
-## Research
-
-Research is not a separate hobby page tucked behind the engineering. It is how I get from an unclear problem to a bounded implementation.
-
-Questions currently in reach: specification recovery, behavior tracing, evidence and provenance, stateful agents, representation differences, incomplete information, and testing across system boundaries.
-
-[Research notes →](RESEARCH.md) · [Working method →](docs/RESEARCH_METHOD.md)
-
-## Current direction
-
-**Near term:** independent technical projects and paid problem-solving across systems, data, automation, Python, existing software, and agent evaluation.
-
-**Building toward:** complete public-data applications—ingestion, reconciliation, persistence, API, interface, deployment, monitoring—with each part checked against actual behavior.
-
-**Continuing research:** learning and testing how action, observation, state, and evidence relate across unlike systems. A result that only works on one known example stays labeled that way.
-
-## Position
-
-Evidence should constrain confidence. Unknown is a valid technical state. Failed experiments belong in the record. Research and engineering belong in the same loop.
-
-[More of my technical positions →](OPINIONS.md)
+**[Research cases](SELECTED_WORK.md)** · **[Technical range](ABILITY.md)** · **[Research notebook](RESEARCH.md)** · **[Working with me](WORK_WITH_ME.md)**
 
 ---
 
-**Project access:** Some ongoing development and research repositories are private. This public page does not present inaccessible links as public demonstrations. Measured local results and future work are labeled separately.
+## Work in view
+
+### 01 / Interactive systems — recover the rule before writing the solver
+
+**ARC-AGI-3 native game investigations.** Recorded local full-game completions: **SK48 8/8**, **LS20 7/7**, and **FT09 6/6**. The work involved reconstructing state, action effects, collision or movement constraints, and checking predicted outcomes against returned game states.
+
+The FT09 work included a frame-driven policy, successful fresh replays, and an off-trajectory recovery test. These are **specific local game results**, not an ARC Prize ranking or evidence of general performance.
+
+[Read the case record and limits →](SELECTED_WORK.md#01--interactive-environments)
+
+### 02 / Continuity — preserve meaning across real boundaries
+
+An active private runtime connecting task handoffs, source feeds, trace ancestry, agent evaluation, and other local systems without making them pretend to share one data model. The question is not merely whether a connection works; it is what evidence and context survive the crossing.
+
+**Status:** integration and verification work in progress, **not** a claimed production deployment.
+
+[Architecture and current boundary →](PROJECTS.md#continuity--cross-system-runtime)
+
+### 03 / Local agent inference — test the action, not the explanation
+
+A recent bounded canary placed **Qwen 3 4B** inside an existing agent evaluator. The model proposed a native repository read; the evaluator performed that read and recorded a matching SHA-256 witness. The complete contextual evaluation took approximately **54.5 seconds** on CPU. A smaller standalone JSON inference took **8.9 seconds**.
+
+This proves one observed model-directed tool step—not self-directed engineering, autonomous project completion, or general reasoning.
+
+[Exact claim boundary →](SELECTED_WORK.md#02--local-generative-agent-canary)
+
+---
+
+## The kind of work I take on
+
+**Investigate and repair** a failing script, API workflow, data pipeline, or existing application. Reproduce the actual behavior, isolate the first unsupported assumption, repair what can be tested.
+
+**Build a bounded tool** to inspect, validate, reconcile, transform, or monitor real inputs. Typical surfaces: Python, structured files, HTTP, repository workflows, and automation.
+
+**Evaluate a stateful system or agent** using real state transitions, replay, counterexamples, expected-versus-observed results, and recovery tests.
+
+**Delivery standard:** usable artifact or reproducible finding; input/output example; test evidence; limitations and a clear handoff. No invented success state.
+
+[Scope a piece of work →](WORK_WITH_ME.md)
+
+## Research directions
+
+- **Specification recovery:** inferring action rules from an unfamiliar interface.
+- **State and representation:** separating changes in the actual system from changes in how it is displayed or encoded.
+- **Evidence and provenance:** carrying enough ancestry to distinguish observation, interpretation, and reuse.
+- **Agent behavior:** whether an action was performed, what it changed, and where an evaluator must refuse promotion.
+- **Construction from constraints:** exploring candidate systems from witnessed relations. **Mathematical proposal; generality not yet established.**
+
+These are connected investigations, not a claim that one method already solves every domain.
+
+[Read the research notebook →](RESEARCH.md) · [Current technical positions →](OPINIONS.md) · [Project map →](PROJECTS.md)
+
+---
+
+**Evidence policy:** Public claims distinguish local tests, private development, proposed work, and independently inspectable artifacts. Some source and replay archives are private; a summary here is not a substitute for public reproducibility. [Claim and witness index →](PROVENANCE.md)
