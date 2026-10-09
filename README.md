@@ -1,6 +1,8 @@
 # James Muneoka
 
-**Systems research · Interactive environments · Agent evaluation · Applied software**
+**Systems Researcher · Systems Architect · Orchestration Engineer**
+
+*Mathematical Foundations · Software Systems · Orchestration*
 
 I investigate systems that do not come with a reliable specification. The work starts with actual state and behavior, not a description of what the system ought to do. From there: recover the rule, find where it fails, build the instrument, and retain the evidence.
 
@@ -20,9 +22,9 @@ The FT09 work included a frame-driven policy, successful fresh replays, and an o
 
 [Read the case record and limits →](SELECTED_WORK.md#01--interactive-environments)
 
-### 02 / Continuity — preserve meaning across real boundaries
+### 02 / Continuity — cross-system orchestration
 
-An active private runtime connecting task handoffs, source feeds, trace ancestry, agent evaluation, and other local systems without making them pretend to share one data model. The question is not merely whether a connection works; it is what evidence and context survive the crossing.
+An active private runtime coordinating bounded work across tasks, agents, and connected systems. Its orchestration preserves task states, human handoffs, source relations, and trace ancestry without flattening each system's local structure. The question is not merely whether a connection works; it is what evidence and context survive the crossing.
 
 **Status:** integration and verification work in progress, **not** a claimed production deployment.
 
