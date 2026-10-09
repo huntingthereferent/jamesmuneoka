@@ -1,27 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="274" viewBox="0 0 1200 274" role="img" aria-labelledby="title desc">
-  <title id="title">James Muneoka / field records</title>
-  <desc id="desc">Research index displaying three different evidence tracks: locally completed ARC interactive games, a model-directed repository read through a Continuity evaluator, and ongoing cross-system runtime investigation. Evidence scope and unresolved boundaries remain visible.</desc>
-  <rect x="0" y="0" width="1200" height="274" rx="10" fill="#0e1820"/>
-  <rect x="0" y="0" width="8" height="274" rx="4" fill="#77bfaf"/>
-  <path d="M38 52H1162 M38 231H1162 M406 68V213 M789 68V213" stroke="#344b55" stroke-width="1" fill="none"/>
-  <g font-family="Consolas, 'Liberation Mono', monospace">
-    <text x="39" y="33" font-size="12" fill="#a5c2c5" letter-spacing="1.8">FIELD RECORD / JAMES MUNEOKA</text>
-    <text x="1160" y="33" text-anchor="end" font-size="12" fill="#88a8a9" letter-spacing="1.2">OBSERVE  /  TEST  /  RETURN</text>
-    <text x="44" y="87" font-size="12" fill="#84bcab" letter-spacing="1.2">01 / INTERACTIVE SYSTEMS</text>
-    <text x="424" y="87" font-size="12" fill="#84bcab" letter-spacing="1.2">02 / AGENT EVALUATION</text>
-    <text x="807" y="87" font-size="12" fill="#84bcab" letter-spacing="1.2">03 / CROSS-SYSTEM RUNTIME</text>
-    <g font-family="Arial, Helvetica, sans-serif">
-      <text x="44" y="136" font-size="33" font-weight="700" fill="#f3f4ed">8/8 · 7/7 · 6/6</text>
-      <text x="424" y="136" font-size="31" font-weight="700" fill="#f3f4ed">MOVE → READ</text>
-      <text x="807" y="136" font-size="30" font-weight="700" fill="#f3f4ed">STATE → TRACE</text>
-    </g>
-    <text x="44" y="171" font-size="14" fill="#c9d7d5">ARC full-game local replays</text>
-    <text x="424" y="171" font-size="14" fill="#c9d7d5">Qwen 4B · one tool witness</text>
-    <text x="807" y="171" font-size="14" fill="#c9d7d5">Local context across boundaries</text>
-    <text x="44" y="194" font-size="12" fill="#9fb1b4">not an ARC Prize ranking</text>
-    <text x="424" y="194" font-size="12" fill="#9fb1b4">not an autonomous build</text>
-    <text x="807" y="194" font-size="12" fill="#9fb1b4">active development · private</text>
-    <text x="40" y="252" font-size="11" fill="#91abad" letter-spacing=".8">NATIVE WITNESSES FIRST</text>
-    <text x="1160" y="252" text-anchor="end" font-size="11" fill="#91abad" letter-spacing=".8">LOCAL TEST ≠ GENERAL CLAIM</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="272" viewBox="0 0 800 272" role="img" aria-labelledby="title desc">
+<title id="title">Research evidence register</title>
+<desc id="desc">Three measured work surfaces: local ARC game replays; one Qwen-directed source read; private Continuity runtime development.</desc>
+<rect width="800" height="272" fill="#f3f5f2"/><path d="M0 2H800" stroke="#375b60" stroke-width="3"/><text x="20" y="27" fill="#526e71" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="1.1">RECENT WORK  /  EVIDENCE REGISTER</text><path d="M20 41H780 M20 114H780 M20 187H780 M20 251H780" stroke="#cbd5d3" stroke-width="1"/><text x="20" y="62" fill="#526e71" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="0">ARC-AGI-3  /  LOCAL REPLAY</text><text x="20" y="103" fill="#203944" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="500" letter-spacing="-0.45">8/8 · 7/7 · 6/6</text><text x="20" y="136" fill="#526e71" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="0">QWEN 3 4B  /  TOOL USE</text><text x="20" y="175" fill="#203944" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="500" letter-spacing="-0.45">MOVE → READ</text><text x="20" y="208" fill="#526e71" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" letter-spacing="0">CONTINUITY  /  SYSTEMS</text><text x="20" y="241" fill="#203944" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="500" letter-spacing="-0.45">State and provenance</text><text x="20" y="266" fill="#526e71" font-family="Consolas, 'Liberation Mono', monospace" font-size="9" font-weight="500" letter-spacing="0.7">VERIFIED LOCAL RESULTS  /  NO GENERAL CLAIM</text>
 </svg>

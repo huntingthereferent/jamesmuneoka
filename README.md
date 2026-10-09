@@ -1,4 +1,4 @@
-# James Muneoka
+# ![James Muneoka](assets/research-name.svg)
 
 **Systems Researcher · Systems Architect · Orchestration Engineer**
 
@@ -12,9 +12,9 @@ I investigate systems that do not come with a reliable specification. The work s
 
 ---
 
-## Work in view
+## ![Work in view](assets/research-work.svg)
 
-### 01 / Interactive systems — recover the rule before writing the solver
+### ![01 / Interactive systems](assets/research-arc.svg)
 
 **ARC-AGI-3 native game investigations.** Recorded local full-game completions: **SK48 8/8**, **LS20 7/7**, and **FT09 6/6**. The work involved reconstructing state, action effects, collision or movement constraints, and checking predicted outcomes against returned game states.
 
@@ -22,7 +22,7 @@ The FT09 work included a frame-driven policy, successful fresh replays, and an o
 
 [Read the case record and limits →](SELECTED_WORK.md#01--interactive-environments)
 
-### 02 / Continuity — cross-system orchestration
+### ![02 / Continuity — cross-system orchestration](assets/research-continuity.svg)
 
 An active private runtime coordinating bounded work across tasks, agents, and connected systems. Its orchestration preserves task states, human handoffs, source relations, and trace ancestry without flattening each system's local structure. The question is not merely whether a connection works; it is what evidence and context survive the crossing.
 
@@ -30,7 +30,7 @@ An active private runtime coordinating bounded work across tasks, agents, and co
 
 [Architecture and current boundary →](PROJECTS.md#continuity--cross-system-runtime)
 
-### 03 / Local agent inference — test the action, not the explanation
+### ![03 / Local agent inference](assets/research-qwen.svg)
 
 A recent bounded canary placed **Qwen 3 4B** inside an existing agent evaluator. The model proposed a native repository read; the evaluator performed that read and recorded a matching SHA-256 witness. The complete contextual evaluation took approximately **54.5 seconds** on CPU. A smaller standalone JSON inference took **8.9 seconds**.
 
@@ -40,7 +40,7 @@ This proves one observed model-directed tool step—not self-directed engineerin
 
 ---
 
-## Research directions
+## ![Research directions](assets/research-directions.svg)
 
 - **Specification recovery:** inferring action rules from an unfamiliar interface.
 - **State and representation:** separating changes in the actual system from changes in how it is displayed or encoded.
