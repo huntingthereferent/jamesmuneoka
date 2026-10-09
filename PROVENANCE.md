@@ -7,9 +7,11 @@ A reader should be able to distinguish a measured local observation from a publi
 | ARC-01 | SK48 full 8/8 local completion, recorded fresh replays | Private/local ARC run and replay records | **No** | One known public game, not a competition result |
 | ARC-02 | LS20 full 7/7 local completion, recorded fresh replays | Private/local ARC run and replay records | **No** | One known public game, not unseen-task generalization |
 | ARC-03 | FT09 full 6/6 local completion; off-trajectory tests | Private/local visual policy and frame traces | **No** | Source-assisted investigation preceded frame-based execution |
-| AGENT-01 | Qwen 3 4B selected one source; native evaluator read it | Private Continuity canary journal, source and hash | **No** | Single read step, no edit or autonomous completion |
-| SYS-01 | Continuity connects task, feed, and trace-related runtime components | Private development repository and local tests | **No** | Not evidence of production reliability |
+| AGENT-01 | Qwen 3 4B selected one source; native evaluator read it | Private cross-system orchestration canary journal, source and hash | **No** | Single read step, no edit or autonomous completion |
+| SYS-01 | cross-system orchestration connects task, feed, and trace-related runtime components | Private development repository and local tests | **No** | Not evidence of production reliability |
 | STACK-01 | Complete public-data application | Architecture and intended acceptance chain | **Not applicable — planned** | No shipped deployment claimed |
+
+| MATH-01 | Finite-state transformation continuation and re-entry | Local mathematical witnesses and reported regression tests | **No** | Restricted B-actions; scoped observation budgets; reproducible bundle pending |
 
 ### ARC native game experiments
 
@@ -21,9 +23,9 @@ The recorded October 2026 outcomes are:
 
 The native game SDK reportedly returned 100.0 scores in these specific local runs. **No public replay bundle is attached to this repository**. The summary is a disclosed claim, not independent verification by a repository visitor.
 
-### Local Qwen / Continuity canary
+### Local Qwen / orchestration canary
 
-On October 8, 2026, a local `qwen3:4b-instruct` model produced a proposed `MOVE` selecting the native source `runtime/http/index.html`. The bound Continuity evaluator read the permitted file and recorded SHA-256:
+On October 8, 2026, a local `qwen3:4b-instruct` model produced a proposed `MOVE` selecting the native source `runtime/http/index.html`. The bound cross-system orchestration evaluator read the permitted file and recorded SHA-256:
 
 ```text
 1755cc2e0613381a3f004ca46595aa13b12962ddd15e39499823b7d8af4caf9f
@@ -32,6 +34,14 @@ On October 8, 2026, a local `qwen3:4b-instruct` model produced a proposed `MOVE`
 The independently checked local file hash matched at the time of the test. The observed evaluation took 54.453 seconds; a shorter standalone JSON inference took 8.87 seconds, generating about 9.86 tokens per second.
 
 **Limits:** the local files, model inference logs, and canary journal are not in this public repository. The private source may evolve, so this hash identifies the file **as observed then**, not its current contents or its scientific correctness. The original queued tasks remained `READY`; no autonomous build was completed.
+
+### Finite-state conjugacy testing
+
+Local reports from October 2026 describe an 81-state \(B\)-invariant fiber. The negative pair has nine 9-cycles versus three 27-cycles; their fixed-point counts first diverge at \(B^9\) under the declared restricted observation. A separate positive case reportedly constructs and verifies an intertwining bijection for restricted \(B\)-actions. A later reported checkpoint experiment retains the underlying comparison while serializing and restoring it.
+
+**Reported local checks:** 13/13 continuation tests and 17/17 re-entry tests. **Not published here:** exact laws, fiber predicates, source code, positive bijection, serialized checkpoint fixtures, or runnable tests. No full two-generator equivalence or general method is implied.
+
+[Mathematical case](docs/FINITE_STATE_CONJUGACY.md).
 
 ### What stronger publication would require
 

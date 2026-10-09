@@ -57,6 +57,14 @@ Keep the minimum information necessary to reconstruct what a result depended on:
 
 A summary is an index into evidence. It is not the evidence itself.
 
+### 06 / Finite-state conjugacy testing
+
+An inconclusive observation is not permission to change the mathematical question. On a declared 81-state invariant fiber, the first eight fixed-point observations of two restricted actions agree; the ninth separates their cycle structures. A distinct positive case verifies an intertwining bijection. Observation budgets that end too early preserve UNKNOWN, rather than implying equivalence.
+
+A checkpoint experiment reportedly serialized an unfinished comparison, restored it, and continued the original action without changing its domain or losing earlier observations. That tests the continuity *of a particular mathematical investigation*, not a general universal method.
+
+[Mathematical case and evidence limits](docs/FINITE_STATE_CONJUGACY.md)
+
 ### Questions still open
 
 - Which state relations survive a change of representation?

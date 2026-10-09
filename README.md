@@ -9,7 +9,8 @@ I investigate systems that do not come with a reliable specification. The work s
 | Research record | Observed result | Current boundary |
 | :--- | :--- | :--- |
 | **ARC-AGI-3** | SK48 8/8 · LS20 7/7 · FT09 6/6 | Local game replays; not a competition ranking |
-| **Continuity** | Cross-system task, source and agent traces | Private runtime; active development |
+| **Finite-state conjugacy testing** | Restricted B-actions separated at the ninth iterate; separate positive 27-cycle witness | 81-state invariant fibers; reported local tests, public reproduction pending |
+| **Cross-system orchestration** | Task, source, agent, and handoff traces across independent systems | Private runtime; integration testing in progress |
 | **Qwen 3 4B** | One model-selected repository read with matching SHA-256 | Bounded canary; not autonomous completion |
 
 **[Research cases](SELECTED_WORK.md)** · **[Technical range](ABILITY.md)** · **[Research notebook](RESEARCH.md)**
@@ -25,13 +26,13 @@ The FT09 work included a frame-driven policy, successful fresh replays, and an o
 
 [Read the case record and limits →](SELECTED_WORK.md#01--interactive-environments)
 
-![02 / Continuity — cross-system orchestration](assets/editorial/continuity.svg)
+![02 / Cross-system orchestration](assets/editorial/orchestration.svg)
 
-An active private runtime coordinating bounded work across tasks, agents, and connected systems. Its orchestration preserves task states, human handoffs, source relations, and trace ancestry without flattening each system's local structure. The question is not merely whether a connection works; it is what evidence and context survive the crossing.
+A private runtime coordinating bounded tasks, agents, external sources and human handoffs across different systems. It preserves native task states and source provenance, letting a result cross a boundary without mistaking a proposed action for an executed one.
 
 **Status:** integration and verification work in progress, **not** a claimed production deployment.
 
-[Architecture and current boundary →](PROJECTS.md#continuity--cross-system-runtime)
+[Architecture and current boundary →](PROJECTS.md#cross-system-orchestration--runtime)
 
 ![03 / Local agent inference](assets/editorial/qwen.svg)
 
@@ -41,6 +42,14 @@ This proves one observed model-directed tool step—not self-directed engineerin
 
 [Exact claim boundary →](SELECTED_WORK.md#02--local-generative-agent-canary)
 
+
+![04 / Finite-state conjugacy testing](assets/editorial/finite-state.svg)
+
+**Finite-state conjugacy testing.** A bounded mathematical investigation compared two invertible finite-field transformations on a declared 81-state invariant fiber. Periodic-point observations agreed through eight continuations and diverged at the ninth. A separate positive control verified an intertwining bijection between restricted actions. Checkpoint-and-resume tests reportedly preserved the watched space and earlier observations while continuing the same question.
+
+**Status:** locally reported mathematical experiments; the exact laws, witnesses, and executable test suite are not yet available in this public portfolio.
+
+[Research case and limits →](docs/FINITE_STATE_CONJUGACY.md)
 
 ![Research directions](assets/editorial/directions.svg)
 

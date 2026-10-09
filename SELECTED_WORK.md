@@ -24,7 +24,7 @@ The local SDK reported a **100.0 game score** on each completed run. FT09 was ad
 
 ### 02 / Local generative agent canary
 
-**Referent:** existing Continuity agent evaluator, with local Qwen 3 4B inference. **Status:** observed single tool movement, October 8, 2026.
+**Referent:** existing cross-system orchestration agent evaluator, with local Qwen 3 4B inference. **Status:** observed single tool movement, October 8, 2026.
 
 The question was whether a generative model could supply an actual next movement **inside the existing evaluation lineage**, rather than producing a plan in a separate chat.
 
@@ -38,9 +38,9 @@ The question was whether a generative model could supply an actual next movement
 
 **What it does not prove:** reliable long-running autonomy or a completed end-to-end construction loop.
 
-**Witness status:** local runtime observation and matching hash; source and journal remain private. [Provenance index](PROVENANCE.md#local-qwen--continuity-canary).
+**Witness status:** local runtime observation and matching hash; source and journal remain private. [Provenance index](PROVENANCE.md#local-qwen--orchestration-canary).
 
-### 03 / Continuity and cross-system work
+### 03 / Cross-system orchestration
 
 **Referent:** one runtime spanning task flows, agent handoffs, external information, traceable movement, and linked local systems. **Status:** active private development.
 
@@ -58,5 +58,17 @@ The target stack is ingestion, validation/reconciliation, PostgreSQL, FastAPI, u
 
 Future evidence must include an actual running system, reproducible input/output, end-to-end acceptance checks, and operational boundaries.
 
+
+### 05 / Finite-state conjugacy testing
+
+**Referent:** the continued observation of restricted invertible transformations. **Status:** local mathematical experiments reported in October 2026; public source and witness bundle pending.
+
+Two systems over \(\mathbb F_3^5\) differ by one admissible next-coordinate coupling. Restricted to a specified 81-state \(B\)-invariant fiber, the first action has nine cycles of length 9 and the second three cycles of length 27. Their periodic-point counts agree through \(B^8\), then differ at \(B^9\): 81 fixed states versus zero. Their restricted \(B\)-actions are therefore nonconjugate. On the full 243-state space, a distinction appears earlier, at \(B^3\).
+
+A separate positive control reports an explicit verified bijection intertwining the restricted \(B\)-actions of two distinct laws with matching 27-cycle structures. In the declared observation procedure, the negative case remains UNKNOWN at budget 8 and becomes DISTINGUISHED at 9; the positive case remains UNKNOWN at budget 26 and yields a verified restricted-\(B\) correspondence at 27.
+
+Reported tests: **13/13** for native continuation and **17/17** for serialization, re-entry, and continued observation. The results do not assert simultaneous \(A\)/\(B\) conjugacy, an unrestricted construction method, or independent public reproducibility.
+
+[Detailed mathematical record](docs/FINITE_STATE_CONJUGACY.md) · [Witness status](PROVENANCE.md#finite-state-conjugacy-testing)
 
 [Research notebook](RESEARCH.md) · [Back to profile](README.md)

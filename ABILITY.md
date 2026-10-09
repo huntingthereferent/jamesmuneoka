@@ -15,7 +15,7 @@ A skill list tells you what somebody has encountered. An evidence record tells y
 
 ### Measured depth
 
-Local ARC interactive environments: **SK48 8/8**, **LS20 7/7**, **FT09 6/6**, with recorded full-game replay tests and off-trajectory FT09 testing. A separate **Qwen 3 4B** canary executed one model-selected native source read through the existing Continuity evaluator and retained a matching file hash.
+Local ARC interactive environments: **SK48 8/8**, **LS20 7/7**, **FT09 6/6**, with recorded full-game replay tests and off-trajectory FT09 testing. A separate **Qwen 3 4B** canary executed one model-selected native source read through the existing cross-system orchestration evaluator and retained a matching file hash.
 
 These are environment- or step-specific results, **not a blanket claim of general intelligence, general autonomous software delivery, or public production operations**. See [case records](SELECTED_WORK.md).
 
