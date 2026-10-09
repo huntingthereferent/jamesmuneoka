@@ -8,9 +8,8 @@ A reader should be able to distinguish a measured local observation from a publi
 | ARC-02 | LS20 full 7/7 local completion, recorded fresh replays | Private/local ARC run and replay records | **No** | One known public game, not unseen-task generalization |
 | ARC-03 | FT09 full 6/6 local completion; off-trajectory tests | Private/local visual policy and frame traces | **No** | Source-assisted investigation preceded frame-based execution |
 | AGENT-01 | Qwen 3 4B selected one source; native evaluator read it | Private cross-system orchestration canary journal, source and hash | **No** | Single read step, no edit or autonomous completion |
-| SYS-01 | cross-system orchestration connects task, feed, and trace-related runtime components | Private development repository and local tests | **No** | Not evidence of production reliability |
+| SYS-01 | Cross-system orchestration connects task, feed, and trace-related runtime components | Private development repository and local tests | **No** | Not evidence of production reliability |
 | STACK-01 | Complete public-data application | Architecture and intended acceptance chain | **Not applicable — planned** | No shipped deployment claimed |
-
 | MATH-01 | Finite-state transformation continuation and re-entry | Local mathematical witnesses and reported regression tests | **No** | Restricted B-actions; scoped observation budgets; reproducible bundle pending |
 
 ### ARC native game experiments
