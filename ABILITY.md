@@ -1,8 +1,8 @@
-# Technical range
+## Technical range
 
 A skill list tells you what somebody has encountered. An evidence record tells you **what survived a test**. Both are useful, but they are not interchangeable.
 
-## Current practice
+### Current practice
 
 | Surface | Work undertaken | What a handoff should contain |
 | --- | --- | --- |
@@ -13,17 +13,17 @@ A skill list tells you what somebody has encountered. An evidence record tells y
 | **Real integrations** | Work across files, repositories, HTTP, APIs, browsers and local processes. | Contract and real-boundary checks; what fails when a dependency disappears |
 | **Research communication** | Convert an unclear system into claims that can be challenged. | Evidence, counterexamples, explicit unknowns and a reproducible next question |
 
-## Measured depth
+### Measured depth
 
 Local ARC interactive environments: **SK48 8/8**, **LS20 7/7**, **FT09 6/6**, with recorded full-game replay tests and off-trajectory FT09 testing. A separate **Qwen 3 4B** canary executed one model-selected native source read through the existing Continuity evaluator and retained a matching file hash.
 
 These are environment- or step-specific results, **not a blanket claim of general intelligence, general autonomous software delivery, or public production operations**. See [case records](SELECTED_WORK.md).
 
-## Building toward
+### Building toward
 
 Complete data/service stacks: Python ingestion, structured data, record reconciliation, PostgreSQL, FastAPI, interfaces, Docker, CI, deployment and monitoring. Physical/measurement boundaries and fabrication-oriented workflows are further research interests rather than implied delivered client work.
 
-## How competence is established
+### How competence is established
 
 Start with native input, write down what completion would mean, exercise the actual boundary, retain results, then revise only what the evidence permits. Where a dependency cannot be observed, keep it as a named unresolved condition.
 

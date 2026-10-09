@@ -1,8 +1,8 @@
-# Selected work / case records
+## Selected work / case records
 
 Each case keeps the **question, intervention, returned result, and unresolved boundary** together. A recorded local result is not silently promoted into a public reproduction or a general capability claim.
 
-## 01 / Interactive environments
+### 01 / Interactive environments
 
 **Referent:** native ARC-AGI-3 games. **Status:** measured local outcomes, October 2026; full source/test bundles are not public here.
 
@@ -22,7 +22,7 @@ The local SDK reported a **100.0 game score** on each completed run. FT09 was ad
 
 **Witness status:** summaries of local replays; the underlying game traces, tool outputs, and implementation are not published in this repository. [Provenance index](PROVENANCE.md#arc-native-game-experiments).
 
-## 02 / Local generative agent canary
+### 02 / Local generative agent canary
 
 **Referent:** existing Continuity agent evaluator, with local Qwen 3 4B inference. **Status:** observed single tool movement, October 8, 2026.
 
@@ -40,7 +40,7 @@ The question was whether a generative model could supply an actual next movement
 
 **Witness status:** local runtime observation and matching hash; source and journal remain private. [Provenance index](PROVENANCE.md#local-qwen--continuity-canary).
 
-## 03 / Continuity and cross-system work
+### 03 / Continuity and cross-system work
 
 **Referent:** one runtime spanning task flows, agent handoffs, external information, traceable movement, and linked local systems. **Status:** active private development.
 
@@ -50,7 +50,7 @@ Current work includes task and source tracing, handoff states, feed projection, 
 
 **Next validation:** more real-system boundary tests, action/recovery checks, and independently inspectable case artifacts. [Project map](PROJECTS.md).
 
-## 04 / End-to-end public-data application
+### 04 / End-to-end public-data application
 
 **Referent:** planned complete application, **not yet a shipped project**.
 
@@ -58,6 +58,5 @@ The target stack is ingestion, validation/reconciliation, PostgreSQL, FastAPI, u
 
 Future evidence must include an actual running system, reproducible input/output, end-to-end acceptance checks, and operational boundaries.
 
----
 
 [Research notebook](RESEARCH.md) · [Back to profile](README.md)

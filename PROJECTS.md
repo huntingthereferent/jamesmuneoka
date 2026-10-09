@@ -1,8 +1,8 @@
-# Projects and research surfaces
+## Projects and research surfaces
 
 The projects are not interchangeable. Each has a different native purpose, evidence standard, and publication boundary.
 
-## Continuity / cross-system runtime
+### Continuity / cross-system runtime
 
 **Active development · private repository**
 
@@ -10,7 +10,7 @@ Bounded agent/human handoffs, task and calendar workflows, external source feeds
 
 **What has been observed:** local components and workflows tested; one Qwen source-read canary tied to the existing evaluator. **Not established:** production deployment, a generally autonomous implementation agent, or complete integration of every listed system.
 
-## Interactive-environment research
+### Interactive-environment research
 
 **Measured local experiments · implementation not yet public here**
 
@@ -18,19 +18,19 @@ Unknown-rule discovery in ARC-AGI-3 environments. Native state/action experiment
 
 [Cases and their limits →](SELECTED_WORK.md#01--interactive-environments)
 
-## Axioms
+### Axioms
 
 **Private research kernel**
 
 Small foundational rules tested without dragging an entire application architecture into the experiment. The question is whether a relation survives in a minimal, inspectable form.
 
-## Eggy
+### Eggy
 
 **Private experimental archive**
 
 Earlier investigations through file structures, runtimes, HTTP, repositories, browser interfaces, and technical boundary tests. Historical evidence stays historical; it does not automatically prove the current system.
 
-## Complete public-data service
+### Complete public-data service
 
 **Build direction · not shipped**
 

@@ -1,10 +1,10 @@
-# Research notebook
+## Research notebook
 
 The object of study is often a system whose rules are **not available at the level where the work begins**.
 
 That may be a game returning frames, a program with inconsistent runtime behavior, an API that changes shape, a repository with competing versions, or an agent reporting success without performing the action. The first job is to recover enough of the native structure to ask a question that can actually fail.
 
-## 01 / State before interpretation
+### 01 / State before interpretation
 
 An observation is not yet a rule. For a stateful environment, the useful evidence unit is:
 
@@ -17,7 +17,7 @@ The returned whole state is the witness. Features—hashes, counts, bounding box
 
 In the ARC investigations, this meant distinguishing a visual pattern from an earned action rule, then checking the rule under fresh replay and deliberately changed action histories.
 
-## 02 / Recovering unknown specifications
+### 02 / Recovering unknown specifications
 
 A practical sequence:
 
@@ -29,7 +29,7 @@ A practical sequence:
 
 A failed candidate that eliminates an interpretation is useful; a neat explanation that cannot predict anything is not.
 
-## 03 / What transfers across unlike systems
+### 03 / What transfers across unlike systems
 
 The same tracing discipline has been applied to interactive environments, code/runtimes, repository state, files and structured records, HTTP/API surfaces, and software interfaces.
 
@@ -37,7 +37,7 @@ The native structures are **not** declared equivalent. Transfer is earned at the
 
 **Current construction question:** Can tested constraints and relations generate candidate environments that the same evaluator can inspect? Inverse-category expansion has evidence in the particular ARC investigations; a general world-construction operation remains a **mathematical proposal requiring its own tests**. No general maze-generation success is claimed here.
 
-## 04 / Agents: claimed movement versus executed movement
+### 04 / Agents: claimed movement versus executed movement
 
 Agent output is easy to mistake for action. The record must distinguish:
 
@@ -51,13 +51,13 @@ Agent output is easy to mistake for action. The record must distinguish:
 
 A recent local Qwen canary verified **one** model-proposed repository read inside an existing evaluator, including the returned file hash. It did not write code or finish the agent's queued tasks. [Case record](SELECTED_WORK.md#02--local-generative-agent-canary).
 
-## 05 / Provenance without turning research into paperwork
+### 05 / Provenance without turning research into paperwork
 
 Keep the minimum information necessary to reconstruct what a result depended on: native source locator, earlier state, action or transformation, actual output, tests and failure records, and any unresolved conditions. The aim is replayable reasoning, not maximal logging.
 
 A summary is an index into evidence. It is not the evidence itself.
 
-## Questions still open
+### Questions still open
 
 - Which state relations survive a change of representation?
 - How does an agent discover a dependency it cannot yet observe?

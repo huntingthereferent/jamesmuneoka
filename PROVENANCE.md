@@ -1,4 +1,4 @@
-# Claim and witness index
+## Claim and witness index
 
 A reader should be able to distinguish a measured local observation from a publicly reproducible artifact. This index states the evidence **available in the public repository**, not just the confidence of the person who ran the test.
 
@@ -11,7 +11,7 @@ A reader should be able to distinguish a measured local observation from a publi
 | SYS-01 | Continuity connects task, feed, and trace-related runtime components | Private development repository and local tests | **No** | Not evidence of production reliability |
 | STACK-01 | Complete public-data application | Architecture and intended acceptance chain | **Not applicable — planned** | No shipped deployment claimed |
 
-## ARC native game experiments
+### ARC native game experiments
 
 The recorded October 2026 outcomes are:
 
@@ -21,7 +21,7 @@ The recorded October 2026 outcomes are:
 
 The native game SDK reportedly returned 100.0 scores in these specific local runs. **No public replay bundle is attached to this repository**. The summary is a disclosed claim, not independent verification by a repository visitor.
 
-## Local Qwen / Continuity canary
+### Local Qwen / Continuity canary
 
 On October 8, 2026, a local `qwen3:4b-instruct` model produced a proposed `MOVE` selecting the native source `runtime/http/index.html`. The bound Continuity evaluator read the permitted file and recorded SHA-256:
 
@@ -33,7 +33,7 @@ The independently checked local file hash matched at the time of the test. The o
 
 **Limits:** the local files, model inference logs, and canary journal are not in this public repository. The private source may evolve, so this hash identifies the file **as observed then**, not its current contents or its scientific correctness. The original queued tasks remained `READY`; no autonomous build was completed.
 
-## What stronger publication would require
+### What stronger publication would require
 
 Native replay traces and execution scripts, environment/version details, reproducible entrypoints, negative cases, and a way for someone else to execute the same checks. Those are future publication steps—not materials implied to exist in this public repository.
 
