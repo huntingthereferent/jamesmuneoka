@@ -40,4 +40,4 @@ Ingestion, validation, reconciliation, database, API, interface, deployment, and
 
 Each public link here is a real document in this repository. The larger research and application codebases remain private; their descriptions do not imply open-source access.
 
-[Profile](README.md) · [Case records](SELECTED_WORK.md) · [Working with me](WORK_WITH_ME.md)
+[Profile](README.md) · [Case records](SELECTED_WORK.md)

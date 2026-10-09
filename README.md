@@ -6,7 +6,7 @@ I investigate systems that do not come with a reliable specification. The work s
 
 ![Three current research surfaces: native interactive environments, cross-system runtime behavior, and model-directed tool use.](assets/working-practice.svg)
 
-**[Research cases](SELECTED_WORK.md)** · **[Technical range](ABILITY.md)** · **[Research notebook](RESEARCH.md)** · **[Working with me](WORK_WITH_ME.md)**
+**[Research cases](SELECTED_WORK.md)** · **[Technical range](ABILITY.md)** · **[Research notebook](RESEARCH.md)**
 
 ---
 
@@ -37,18 +37,6 @@ This proves one observed model-directed tool step—not self-directed engineerin
 [Exact claim boundary →](SELECTED_WORK.md#02--local-generative-agent-canary)
 
 ---
-
-## The kind of work I take on
-
-**Investigate and repair** a failing script, API workflow, data pipeline, or existing application. Reproduce the actual behavior, isolate the first unsupported assumption, repair what can be tested.
-
-**Build a bounded tool** to inspect, validate, reconcile, transform, or monitor real inputs. Typical surfaces: Python, structured files, HTTP, repository workflows, and automation.
-
-**Evaluate a stateful system or agent** using real state transitions, replay, counterexamples, expected-versus-observed results, and recovery tests.
-
-**Delivery standard:** usable artifact or reproducible finding; input/output example; test evidence; limitations and a clear handoff. No invented success state.
-
-[Scope a piece of work →](WORK_WITH_ME.md)
 
 ## Research directions
 

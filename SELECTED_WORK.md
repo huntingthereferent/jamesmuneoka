@@ -60,4 +60,4 @@ Future evidence must include an actual running system, reproducible input/output
 
 ---
 
-[Research notebook](RESEARCH.md) · [What I can deliver](WORK_WITH_ME.md) · [Back to profile](README.md)
+[Research notebook](RESEARCH.md) · [Back to profile](README.md)

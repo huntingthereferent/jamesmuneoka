@@ -27,4 +27,4 @@ Complete data/service stacks: Python ingestion, structured data, record reconcil
 
 Start with native input, write down what completion would mean, exercise the actual boundary, retain results, then revise only what the evidence permits. Where a dependency cannot be observed, keep it as a named unresolved condition.
 
-[Case records](SELECTED_WORK.md) · [Research](RESEARCH.md) · [Working with me](WORK_WITH_ME.md)
+[Case records](SELECTED_WORK.md) · [Research](RESEARCH.md)
