@@ -27,19 +27,19 @@ CONTINUITY_ARC_NATIVE_TESTS=1 python -m unittest network.tests.test_arc_native_o
 
 These commands identify inspectable test entry points; the current profile repository does **not** contain a saved successful run of the optional real-SDK test.
 
-## 02 / Native game completion reports
+## 02 / Native saved routes — actual transferred data and replay code
 
-The following are **locally reported outcomes**, not independently repeatable results from the public materials linked above.
+On October 10, 2026 the uploaded `arc3.rar` supplied game-specific saved action routes. Selected inputs were copied into a versioned [native ARC replay research directory](https://github.com/huntingthereferent/language-network/tree/main/research/arc_native_runs). The files below are **normalized exports of real archived action data**, with original-source references and hashes, not simulated win traces.
 
-| Game | Recorded local outcome | Game-specific solver/policy in public repositories? | Full action/frame trace or scorecard published here? |
-| :--- | :--- | :--- | :--- |
-| **SK48** | 8/8 levels; 280 actions; two fresh winning replays | **Not located** | **No** |
-| **LS20** | 7/7 levels; 309 actions; two fresh winning replays | **Not located** | **No** |
-| **FT09** | 6/6 levels; 75 actions; two fresh visual-agent winning runs; exploratory paths of 81 and 76 actions | **Not located** | **No** |
+| Game | Saved action data | Actual executable replay | Reported local completion | Method/boundary |
+| :--- | :--- | :--- | :--- | :--- |
+| **FT09** | [75 coordinate clicks in six stages](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/ft09_route.json) | [Native SDK replay](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/replay_saved_paths.py) | **6/6 · 75 actions · score 100** | Source-assisted route; original local report also describes separate visual-agent experiments, not reproduced by this replay file. |
+| **LS20** | [309 actions in seven stages](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/ls20_route.json) | [Native SDK replay](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/replay_saved_paths.py) | **7/7 · 309 actions · score 100** | Saved reference-assisted route; not independent first-contact discovery. |
+| **SK48** | [280 actions in eight stages](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/sk48_route.json) | [Native SDK replay](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/replay_saved_paths.py) | **8/8 · 280 actions · score 100** | Archived saved-route script uses engine-private state to select ACTION6 coordinates; this is not a public-observation-only policy. |
 
-The reported local SDK scores were 100.0 in the cited runs. These numbers are carried forward as **local reports**, not independently verified game results. The native observer, its one-step SDK test, and the mathematical engines below must **not** be presented as the missing game-specific solvers or replay data.
+[Reproduction instructions, original input hashes, and caveats](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/README.md) · [Detailed local case notes](SELECTED_WORK.md#01--interactive-environments) · [Claim and witness ledger](PROVENANCE.md#arc-native-game-experiments).
 
-[Detailed local case notes](SELECTED_WORK.md#01--interactive-environments) · [Existing claim and witness ledger](PROVENANCE.md#arc-native-game-experiments)
+These newly published **action sequences** are a stronger artifact than narrative completion claims. They are not full per-step observations, independently re-executed scorecards, or the original autonomous policy source. The replay program has not been executed against the native SDK in this transfer environment.
 
 ## 03 / ARC-like finite-field mathematical research — public solvers and tests
 
@@ -55,18 +55,18 @@ This is a separate investigation of **constructed finite-state A/B transformatio
 
 The implementation and tests are visible; no statement here upgrades finite-field constructions into an ARC-AGI-3 game solver. Local/CI execution status must be checked separately before claiming a particular test result.
 
-## 04 / Missing evidence for independent game reproduction
+## 04 / Remaining evidence for independent game reproduction
 
-To substantiate SK48, LS20, and FT09 **as public solver results**, the next evidence package should connect, for each game:
+The archive also contains additional experimental policies, alternate replays, local reports, and internal-state probes. Those have **not** all been uploaded into the public repositories. To establish reproducible solver results, the next evidence package still needs:
 
-1. The actual solver/policy source and its exact version or commit.
-2. The SDK/environment version and configuration, including allowed observations and controls.
-3. A serialized action sequence with native observations or verifiable frame hashes, including any reset, seed, and replay conditions.
-4. Complete-game completion states and native scorecard output.
-5. A runnable replay script and validation report whose recorded provenance matches the published solver and trace.
+1. The original game-specific **policy/solver implementations**, exact versions, and dependencies; not only the saved successful routes.
+2. Native SDK/environment version, reset rules, supported controls, and permitted observations.
+3. Stepwise before/action/after observations or stable hashes tied to the particular run and policy.
+4. Native complete-game states, scorecard outputs, and actual validation logs after fresh execution.
+5. Separate result labels for source-assisted, reference replay, public-frame policy, and autonomous first-contact tests.
 
-No substitute traces, synthetic scorecards, or inferred solver links should be created to fill those gaps. Where raw game data cannot be distributed, stable identifiers/hashes and a lawful reproduction method should be supplied instead.
+The uploaded archive's autonomous cyclic-agent reports also include unsuccessful native runs. A winning saved replay and a failed autonomous attempt are **different experiments** and must stay separately attributable.
 
-**Current evidence status:** native observer and mathematical source: **PUBLIC**. Game-specific full-run solvers and replay records: **LOCAL / NOT LINKED**. Independent verification of the reported full-game outcomes: **NOT ESTABLISHED IN THIS REPOSITORY**.
+**Current status:** actual saved routes and replay interface **PUBLIC**; public mathematical solvers and observer **PUBLIC**; full original game-specific development policies, per-step traces and fresh externally replicated results **INCOMPLETE**.
 
 [Back to profile](README.md) · [Selected work](SELECTED_WORK.md) · [Provenance](PROVENANCE.md)
