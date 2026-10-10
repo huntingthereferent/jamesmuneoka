@@ -29,19 +29,19 @@ The research starts with observation and an existing relation. It asks which con
 
 For a declared family $\mathcal F$ of candidate laws and witnessed requirements $R$, the inverse-construction entry is:
 
-$
+$$
 \operatorname{Inv}_{\mathcal F}(R)
 =\{\,W\in\mathcal F\mid W\text{ satisfies }R\,\}.
-$
+$$
 
 For a **specified** pair of A/B transformation systems, a full-state correspondence $H$ must satisfy both labeled conjugacy equations:
 
-$
+$$
 \begin{aligned}
 H\circ A_P &= A_Q\circ H,\\
 H\circ B_P &= B_Q\circ H.
 \end{aligned}
-$
+$$
 
 A correspondence on an invariant $B$-fiber alone proves neither of these full two-generator conditions automatically. Rooted history, whole-state equivalence, quotient alignment, and transport of a **selected** symmetry are separate mathematical claims.
 
