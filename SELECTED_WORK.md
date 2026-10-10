@@ -22,7 +22,7 @@ The local SDK reported a **100.0 game score** on each completed run. FT09 was ad
 
 **What it does not support:** an ARC Prize leaderboard result, an unseen-game generalization rate, or a broadly capable autonomous agent. FT09's execution used rendered frames; earlier investigation was source-assisted. Those are different evidence conditions.
 
-**Witness status:** summaries of local replays; the underlying game traces, tool outputs, and implementation are not published in this repository. [Provenance index](PROVENANCE.md#arc-native-game-experiments).
+**Witness status:** [Actual saved actions for SK48, LS20, and FT09](https://github.com/huntingthereferent/language-network/tree/main/research/arc_native_runs) and a [native replay entrypoint](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/replay_saved_paths.py) are now public. [Archived LS20](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/original_ls20_complete_replay.py) and [SK48](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/original_sk48_complete_replay.py) replay source transcriptions are also linked. This is route/replay evidence, **not** publication of every original solver, native frame trace, or independent fresh SDK verification. [Provenance index](PROVENANCE.md#arc-native-game-experiments).
 
 ### 02 / Local generative agent canary
 
