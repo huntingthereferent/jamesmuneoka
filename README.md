@@ -18,7 +18,8 @@
 
 **Status.** Bounded mathematical constructions and software witnesses exist. General relational integration across arbitrary actors has **not** been established.
 
-**Human-use notice.** This research is not a request to adopt A/B as a way of living. The [Antechamber disclaimer](#04--antechamber) addresses the possible personal and social costs of sustained relational thinking.
+> [!WARNING]
+> **Human-use safety — suicide and self-harm.** This is mathematical research, not a prescribed way of thinking or a practice anyone must sustain. **Thoughts of suicide, urges to self-harm, or feeling unable to stay safe are reasons to stop and seek human help—not stages of A/B, proof of insight, or research results.** Tell someone you trust and seek immediate crisis support. In the United States, call or text **988** (Suicide & Crisis Lifeline). If danger is immediate, call **911** or your local emergency number. See the [Antechamber human-use disclaimer](#04--antechamber).
 
 ## 01 / Mathematical Research
 
@@ -66,6 +67,8 @@ These systems test different layers of the research. **The software implementati
 **Human-use disclaimer.** Living this way may be personally and socially demanding. James reports that sustained relational thinking sometimes calls for direct bodily feedback: rocking, repeated contact with the ground, and other sensory routines. Strong emotions or unexpected crying can also occur. A bystander may see only the movement or expression, not the experience that preceded it. **What is unfamiliar under social convention is not, by that fact alone, outside reality.**
 
 These are **reported experiences, not demonstrated effects of A/B on all people**. They are not required signs of understanding, proof of a mathematical result, or evidence that someone belongs to a special group. Emotional changes and repetitive movements can have many causes.
+
+**Suicide and self-harm boundary.** No mathematical interpretation justifies persisting through severe distress. If sustained immersion is accompanied by escalating distress, loss of sleep, isolation, or difficulty disengaging, pause the work and seek support from a trusted person or qualified professional. **Suicidal thinking or self-harm urges must never be interpreted as an expected phase of A/B, a necessary emotional release, or a problem to be solved by further analysis.** Grounding routines can support comfort but do not replace clinical or crisis care. There is no established evidence that A/B causes suicidality or that these experiences follow a predictable sequence.
 
 **Regrounding.** A general relation cannot replace an actor's immediate conditions. At the human level, *systems* may include physical, repeatable feedback—movement, touch, routine, and attention to the actual environment. At the operational level, personal and institutional systems retain their own state, obligations, and evidence. Neither layer is identical to A/B; both can return an abstract movement to its local referent.
 
