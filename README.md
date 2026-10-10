@@ -61,11 +61,13 @@ This is the reason for the investigation, not an experimentally established spec
 
 ## 04 / Antechamber
 
-*Antechamber* names a pre-existing threshold in the relations being investigated: encountering a structure, demonstrating its relations, and continuing from them are different conditions. Naming the threshold does not create it.
+For a human, the *Antechamber* is the threshold at which A/B stops being a subject of investigation and becomes a way of thinking: observing relations, following their changes, and continuing across contexts rather than treating each representation as a separate reality.
 
-It is also a disclaimer about consequences. An actor may become capable of continuing an investigation without resolving what that continuation means for other actors. Technical capability is not authority over their future.
+That change does not make the person's circumstances interchangeable with anyone else's. A general relation is not a local witness. **The further the method travels across domains, the more important the return to the actor's specific reality becomes.**
 
-The threshold is not a membership, invitation, or claim that other investigators agree with this work.
+**Systems provide that return.** A person, household, school, research program, factory, or institution retains its own state, constraints, history, and consequences. Its system must bring a general relation back to those concrete conditions, test what actually holds there, and preserve what does not transfer. A/B is not the system; the system is how the actor regrounds the movement.
+
+The threshold is not a membership or an invitation to adopt a single worldview. It is also a disclaimer: capability to continue a relation does not establish authority over another actor's conditions or future. Independent actors must retain their distinct realities even where their relations connect.
 
 ## 05 / Provenance & Records
 
