@@ -30,7 +30,7 @@ The research starts with observation and an existing relation. It asks which con
 For a declared family $\mathcal F$ of candidate laws and witnessed requirements $R$, the inverse-construction entry is:
 
 $$
-\operatorname{Inv}_{\mathcal F}(R)
+\mathrm{Inv}_{\mathcal F}(R)
 =\{\,W\in\mathcal F\mid W\text{ satisfies }R\,\}.
 $$
 
