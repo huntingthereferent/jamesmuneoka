@@ -1,52 +1,41 @@
 # James Muneoka
 
-> **What does humanity do when thinking itself becomes automated?**
+> **What survives when the rules themselves change?**
 
-**Mathematical Systems · Systems Research · Orchestration Architecture**
+**Mathematical construction · Transformation systems · Relational research**
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Mathematical Systems](https://img.shields.io/badge/-Mathematical%20Systems-343A40?style=flat-square)
-![Orchestration](https://img.shields.io/badge/-Orchestration-455A64?style=flat-square)
-![Agent Evaluation](https://img.shields.io/badge/-Agent%20Evaluation-546E7A?style=flat-square)
+The investigation begins with observed relations, not a preferred model. Given a relation, **which laws could have generated it?** When laws are extended, transformed, nested, or compared, **which distinctions survive?** Can the resulting mathematical structures be continued without erasing their different histories, constraints, and witnesses?
 
-**Research question.** Can independent actors—human, computational, institutional, or otherwise—be connected through a common mathematical continuation **without requiring identical objectives, internal states, or mutual agreement**?
+A/B is the research referent: a recursively reusable mathematical operation, **not** the software runtime, a project-management method, or an AI prompt. The aim is to recover its mathematical structure from evidence, construct only what a declared relation admits, and return each result to the conditions that can actually test it. [Research contract](https://github.com/huntingthereferent/language-network/blob/main/AB_CONTRACT.md).
 
-**Method.** Recover existing relations from observation. Formalize what survives changes of representation, action, and boundary. Construct from witnessed relations. Test the returned state; reground when it breaks.
-
-**Intended result.** Reconciliation, coordination, investigation, and execution become operations that a common structure can carry. Actors retain their differences without having to perform every connection themselves. **The objective is to remove compulsory coordination, not compel cooperation.**
-
-**Status.** Bounded mathematical constructions and software witnesses exist. General relational integration across arbitrary actors has **not** been established.
+**Current status:** explicit finite-state constructions, all-depth results for *declared* rule families, and executable mathematical tests. A universal A/B construction or correspondence theorem—much less a physical model of the universe—has **not** been established.
 
 > [!WARNING]
 > **Human-use safety — suicide and self-harm.** This is mathematical research, not a prescribed way of thinking or a practice anyone must sustain. **Thoughts of suicide, urges to self-harm, or feeling unable to stay safe are reasons to stop and seek human help—not stages of A/B, proof of insight, or research results.** Tell someone you trust and seek immediate crisis support. In the United States, call or text **988** (Suicide & Crisis Lifeline). If danger is immediate, call **911** or your local emergency number. See the [Antechamber human-use disclaimer](#04--antechamber).
 
 ## 01 / Mathematical Research
 
-The [A/B research contract](https://github.com/huntingthereferent/language-network/blob/main/AB_CONTRACT.md) treats A/B as a recursively reusable *mathematical operation*, not an agent prompt, workflow, or repository architecture. Each admitted movement must retain its witness, original referent, scope, and next admissible input.
+One finite construction may lead to several larger ones; one observed behavior may admit different generating laws. Equivalence at one depth need not survive another, and a reversible change of rule descriptions need not preserve the mathematical relations they represent.
 
-| Investigation | Mathematical operation | Recorded boundary |
+| Direction | Existing work | Actual boundary |
 | :--- | :--- | :--- |
-| **[Inverse Construction Engine](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/ENGINE_ONE.md)** | Searches admitted finite construction grammars for laws satisfying witnessed requirements; constructs successor versions and independently ticking changing-law recurrences. | 48-law window and 1–4-coupling families; unsupported transitions return WALL. [Implementation](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/engine_one.py) · [Tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_like_engine_one.py) |
-| **[Cyclic Action Engine](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/CYCLIC_ACTION_ENGINE.md)** | Continues a native finite-state B-action, preserves previous observations through serialization and re-entry, and distinguishes obstructions from verified B-intertwiners. | Scoped B-invariant carriers; B-only conjugacy is not full A/B conjugacy. [Implementation](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/cyclic_action_engine.py) |
-| **[Cyclic continuation handoff](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/CYCLIC_ACTION_CONTINUATION.md)** | Carries an existing constructed law into an unchanged mathematical WATCH with source fingerprints, replayed observations, and retained UNKNOWN states. | Declared 81-state invariant fiber; 18 focused repository tests committed, with CI execution not established in the cited report. [Source](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/cyclic_action_continuation.py) |
-| **[Finite-field A/B transformation-system construction](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/README.md)** | Constructs finite-dimensional state-transition systems over the finite field `F₃` with specified generating transformations A and B. Varies coupling laws; tests origin-preserving and full-state conjugacy, and whether their relations survive admitted construction operators. | Separately declared finite families: **81 two-coupling systems / 21 origin-rooted classes; 729 / 85; 6,561 / 341**. Counts classify these finite constructions, not arbitrary systems. |
-| **[Pointed coupling classification](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/POINTED_COUPLING_CLASSIFICATION.md)** | Preserves coupling laws, admissibility obstructions, selected symmetries, cyclic orders, and marked-point transport without identifying unlike mathematical objects. | 486 fourth-coordinate configurations reconciled across separate trace families. [Code](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/pointed_coupling_classification.py) · [Tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_like_pointed_coupling_classification.py) |
+| **Backward — inverse construction** | [Inverse Construction Engine](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/ENGINE_ONE.md) · [source](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/engine_one.py) · [tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_like_engine_one.py) | Searches candidate transition laws satisfying given witnessed conditions and constructs admitted successor laws. Finite 48-law and declared coupling grammars; no universal inverse construction. |
+| **Forward and nested — rule towers** | [Inverse-limit construction](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/inverse_limit.py) · [whole-rule process alignment](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/process_alignment.py) · [mathematical record](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/README.md) | Coherent finite projections and explicit all-depth conjugacies in specified families. Finite-prefix agreement does not prove infinite equivalence. |
+| **Across — equivalence and obstruction** | [Two-predecessor transition laws](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/WINDOW_TWO.md) · [pointed-coupling classification](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/POINTED_COUPLING_CLASSIFICATION.md) · [tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_like_pointed_coupling_classification.py) | Distinguishes changed representations from genuinely inequivalent dynamics; preserves marked points, actual symmetries, and signed-cycle obstructions. Only the stated classes and coupling laws are classified. |
+| **One layer up — transformations of rules** | [Process operators](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/process_operators.py) · [non-diagonal transport](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/NONDIAGONAL_TRANSPORT.md) · [tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_like_process_operators.py) | Some construction operators preserve equivalence under composition; others break it even when reversible. The maximal admissible operator family is unknown. |
+| **Continuation — keeping the same question alive** | [Cyclic Action Engine](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/CYCLIC_ACTION_ENGINE.md) · [native continuation source](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/cyclic_action_continuation.py) | A restricted B-action can retain UNKNOWN, detect obstruction, and verify an intertwiner without substituting a new question. B-only results are not full A/B conjugacy. |
 
-The finite-state [conjugacy report](docs/FINITE_STATE_CONJUGACY.md) records one restricted 81-state distinction at the ninth B-observation and a separate positive B-only correspondence. An early UNKNOWN does not become equivalence; an observed obstruction is not erased by a later matching count.
+**Selected mathematical distinctions.** The [two-predecessor extension](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/WINDOW_TWO.md) produces systems separated by depth-three B-fixed-state counts of **9 versus 6**. [Construction-process research](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/README.md) shows that different indefinitely continued rule streams can have explicit all-depth alignments, while shifting the same descriptions may break a rooted alignment. These are mathematical statements about declared systems, not claims that the systems are physical universes.
 
-## 02 / Systems & Experimental Work
+**Research in integration:** [Continuity Engine / fifth-coupling work (PR #18)](https://github.com/huntingthereferent/language-network/pull/18) contains a wider scoped 243-state construction and classification research. It is still **unmerged**; local findings, public source, and successful integrated CI are separate evidence states.
 
-These systems test different layers of the research. **The software implementation is not the mathematics.**
+## 02 / Realization & Evidence
 
-| Work | Role | Record |
-| :--- | :--- | :--- |
-| **[Continuity Layer](https://github.com/huntingthereferent/language-network)** | Cross-system state, provenance, human-facing surfaces, and movement through independent sources without absorbing their native models. | [Architecture](https://github.com/huntingthereferent/language-network/blob/main/ARCHITECTURE.md) · [Entry protocol](https://github.com/huntingthereferent/language-network/blob/main/ENTRY.md) |
-| **[System handoffs](https://github.com/huntingthereferent/language-network/blob/main/systems/README.md)** | Shared handoff carrier with separate local state and reconciliation. Documented bindings include Personal Operations, Online School, and Factory System. | [System contracts](https://github.com/huntingthereferent/language-network/blob/main/systems/README.md) |
-| **[Program Foundation](https://github.com/huntingthereferent/language-network/blob/main/foundation/PROGRAM_FOUNDATION.md)** | Common input, operation, state, output, and witness contracts across unlike program shapes. | Frozen capability proof; not a universal program constructor. |
-| **[ARC-AGI-3 native investigations](ARC_EVIDENCE.md)** | [Saved action sequences for SK48, LS20 and FT09](https://github.com/huntingthereferent/language-network/tree/main/research/arc_native_runs) · [executable native replay](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/replay_saved_paths.py) · [ARC frame observer](https://github.com/huntingthereferent/language-network/blob/main/runtime/arc_native_observer.py). | **Locally reported:** SK48 8/8 · LS20 7/7 · FT09 6/6. [Evidence audit](ARC_EVIDENCE.md): actual saved routes published; full observation traces and independent solver validation remain incomplete. |
-| **[Agent execution canary](SELECTED_WORK.md#02--local-generative-agent-canary)** | Distinguish a model's proposed action from authorized execution and verified return. | One local Qwen 3 4B source read and matching hash; no autonomous task completion established. |
-| **[Complete Stack](https://github.com/huntingthereferent/language-network/blob/main/COMPLETE_STACK.md)** | Follow required dependencies across software, mathematics, physical systems, measurement, and construction until witnessed or explicitly walled. | Engineering/research orientation; unbuilt physical components remain unbuilt. |
+The [Continuity Layer](https://github.com/huntingthereferent/language-network) supplies an evidence-preserving implementation surface: separate native systems, shared handoffs, replayable history, and explicitly limited execution. **It is infrastructure for testing and carrying relations, not the mathematics itself.**
+
+[ARC-AGI-3 evidence index](ARC_EVIDENCE.md) links real native-game action routes, replay code, a visible-frame policy, observer tests, and unsuccessful independent-agent experiments. Recorded SK48, LS20, and FT09 completions are **local reports**; a saved winning route is not proof of autonomous first-contact solving.
+
+**What remains open:** the mathematical criterion for admitting new law-level constructions beyond these families; independent comparison and construction across genuinely unlike domains; and evidence that the same mathematical operation carries those movements without replacing itself with task-specific code.
 
 ## 03 / Human Consequence
 
@@ -76,36 +65,21 @@ These are **reported experiences, not demonstrated effects of A/B on all people*
 
 **Scope.** The Antechamber is not a membership, invitation, diagnosis, or authority over others. It is a statement of consequence: changing how one investigates relations can also change how one's behavior is perceived. Any claim about those effects must be tested rather than presumed universal.
 
-## 05 / Provenance & Records
+## 05 / Source Records
 
-| ID | Record | Witness status |
-| :--- | :--- | :--- |
-| ARC-01–03 | [Native game investigations](SELECTED_WORK.md#01--interactive-environments) | [Local replays; public witness limits](PROVENANCE.md#arc-native-game-experiments) |
-| MATH-01 | [Finite-state conjugacy report](docs/FINITE_STATE_CONJUGACY.md) | [Local mathematical witnesses](PROVENANCE.md#finite-state-conjugacy-testing) |
-| AGENT-01 | [Model-directed action](SELECTED_WORK.md#02--local-generative-agent-canary) | [Local tool return and recorded hash](PROVENANCE.md#local-qwen--orchestration-canary) |
-| SYS-01 | [Cross-system execution](PROJECTS.md#cross-system-orchestration--runtime) | [Development boundary](PROVENANCE.md) |
-| STACK-01 | [Planned public-data service](PROJECTS.md#complete-public-data-service) | [Unshipped proposal](PROVENANCE.md) |
+**Mathematics:** [Full finite-field research notebook](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/README.md) · [Engine 1](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/ENGINE_ONE.md) · [Cyclic Action Engine](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/CYCLIC_ACTION_ENGINE.md) · [Conjugacy case](docs/FINITE_STATE_CONJUGACY.md).
 
-Mathematical engine contracts, implementations, and test sources are linked directly in §01. The [claim and witness index](PROVENANCE.md) remains the record for the separately reported ARC, agent, finite-state, and systems cases; it is not silently expanded into proof of the general objective.
+**Observation and independent tests:** [ARC sources and data](ARC_EVIDENCE.md) · [Selected experimental records](SELECTED_WORK.md) · [Witness and claim boundaries](PROVENANCE.md).
+
+**Engineering record:** [Continuity architecture](https://github.com/huntingthereferent/language-network/blob/main/ARCHITECTURE.md) · [Research entry protocol](https://github.com/huntingthereferent/language-network/blob/main/ENTRY.md).
 
 <details>
-<summary>Method / regrounding</summary>
+<summary>Method / evidence boundary</summary>
 
-**Referent → observation → admitted relation → construction → native return → comparison → next referent.**
+**Current referent → observed relation → admissible mathematical construction → independent witness → obstruction, UNKNOWN, or preserved relation → next referent.**
 
-Keep source identity, changed conditions, negative cases, and original witnesses. Preserve UNKNOWN or WALL rather than replacing missing relations with assertions. Language first; mathematical formalization follows the observed relation; implementation follows the mathematics.
+Preserve provenance and distinguish mathematical proof, committed tests, local execution, CI results, and external reproduction. Do not infer a universal rule from closure inside a selected grammar.
 
 </details>
 
-<details>
-<summary>Evidence / execution boundary</summary>
-
-**Proposed → authorized → executed → returned → evaluated** are separate states.
-
-A local test report, committed test source, successful CI run, and externally reproduced mathematical result are not interchangeable. A mathematical engine's bounded witness cannot be promoted to unrestricted relational integration without an additional result.
-
-[Evidence index](PROVENANCE.md) · [Mathematical terminology](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/TERMINOLOGY.md)
-
-</details>
-
-[Research notebook](RESEARCH.md) · [Selected work](SELECTED_WORK.md) · [Technical range](ABILITY.md) · [Projects](PROJECTS.md) · [Working positions](OPINIONS.md)
+[Research questions](RESEARCH.md) · [Technical range](ABILITY.md)
