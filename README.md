@@ -18,6 +18,25 @@
 - 🧪 **[Test whether an agent actually acts](SELECTED_WORK.md#02--local-generative-agent-canary)** — A local Qwen 3 4B model selected a source; the evaluator executed the read and returned a matching hash. One verified tool movement, not an autonomous build.
 - 🛠️ **[Carry data through an operating service](PROJECTS.md#complete-public-data-service)** — Ingestion, reconciliation, storage, API, interface, deployment, monitoring. The whole chain has to survive its real dependencies. *Build direction; not shipped.*
 
+## Publication, Proof & Access
+
+The public record is deliberately narrower than the research.
+
+I am re-proving the material along explicit mathematical boundaries, separating what can stand independently from what requires access to the larger construction. These divisions are intentional. They determine what can be examined, what evidence is sufficient, and what a reader must actually encounter to continue the investigation.
+
+Some results can be reduced to a statement and a reproducible test. Others currently depend on the active system, its retained state, and the exact conditions under which the next movement is admitted. Verifying those results requires more than reviewing their description. It requires working alongside the investigation, with access to the same conditions. At that boundary, **verification becomes participation**.
+
+<details>
+<summary>Access, evidence, and release boundaries</summary>
+
+Giving someone access to an isolated mathematical result is different from giving them the means to continue the entire construction. I treat that difference as an ethical responsibility, particularly where a capability may extend beyond the domain in which it was first established.
+
+The separation does not confer validity on private claims. Unreleased witnesses remain unavailable for independent public reproduction. The record states that plainly. Ethical reasons for controlling access do not replace proof.
+
+The intention is to make each released result independently useful and open to challenge, while retaining control over when and how its connections to the larger work are exposed.
+
+</details>
+
 ## Research & Writing
 
 | Type | Record | Date |
@@ -50,19 +69,23 @@ A summary is not evidence. A clean explanation is not a working instrument. When
 </details>
 
 <details>
-<summary>The larger question</summary>
+<summary>The question beyond automation</summary>
 
-Automating labor changes who performs the work. Automating the process that finds the next question, constructs the instrument, tests the answer, corrects it, and continues would change something deeper.
+The immediate research concerns mathematical structure, execution, and the preservation of relations across systems.
 
-If thinking itself becomes a reproducible, continuing process, more intelligence does not settle where humanity should go. It removes one constraint without supplying the next purpose. The machine's ability to proceed is not authority to choose for everyone.
+Its longer consequence is a different question.
 
-This is why I build independent, useful surfaces rather than making an entire underlying research direction a condition of use. Each thing should work where a person encounters it. Its source and limitations should be inspectable. Further investigation should remain possible, but voluntary. Known hazards are not exempt from disclosure.
+What happens when the process of finding a problem, recovering its conditions, constructing a solution, testing that solution, and continuing no longer requires human direction at every step?
 
-There is a difference between making a capability available and making its consequences inhabitable. The interval between them matters.
+If thinking itself becomes reproducible and independently continuable, solving the technical problem will not solve the human one.
 
-**If the search can continue without us, where do we choose to go?**
+The capacity to produce the next answer does not establish which answer ought to be pursued. Removing the necessity of human labor does not determine what humanity should become. Nor does removing the necessity of human invention.
 
-This is a direction of inquiry, not a claim that general thinking has already been solved.
+There is a difference between making such a capability possible and preparing a civilization to live with its consequences.
+
+**The work is therefore not only concerned with what can be constructed, but with the conditions under which its construction should become accessible.**
+
+I am investigating that boundary through mathematics and working systems, not asserting that the larger problem has already been solved.
 
 </details>
 
