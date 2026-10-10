@@ -14,6 +14,8 @@ A reader should be able to distinguish a measured local observation from a publi
 
 ### ARC native game experiments
 
+**Public implementation links:** [source and evidence audit](ARC_EVIDENCE.md) · [ARC native frame observer](https://github.com/huntingthereferent/language-network/blob/main/runtime/arc_native_observer.py) · [native observation integration tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_native_observer.py) · [official ARC toolkit](https://github.com/arcprize/ARC-AGI). The observer records an already-executed frame transition; the tests primarily use synthetic frames and include a separately opt-in real FT09 single-step test. **They do not contain the SK48/LS20/FT09 winning policies, full action traces, or native completion scorecards.** Finite-field A/B construction source and tests are [indexed separately](ARC_EVIDENCE.md#03--arc-like-finite-field-mathematical-research--public-solvers-and-tests) and do not represent native-game execution.
+
 The recorded October 2026 outcomes are:
 
 - SK48 — 8/8 levels, 280 actions, two fresh winning replays.
