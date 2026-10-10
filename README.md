@@ -1,57 +1,73 @@
-![James Muneoka](assets/editorial/name.svg)
+# James Muneoka
+
+> I work on systems at the point where their descriptions stop being enough. The state, the movement, the return. What changed? What survived? If the relation breaks, I keep the failure and recover what was missing. I don't change the question to protect the answer.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Mathematical Systems](https://img.shields.io/badge/-Mathematical%20Systems-343A40?style=flat-square)
+![Orchestration](https://img.shields.io/badge/-Orchestration-455A64?style=flat-square)
+![Agent Evaluation](https://img.shields.io/badge/-Agent%20Evaluation-546E7A?style=flat-square)
 
 **Systems Researcher · Systems Architect · Orchestration Engineer**
 
-<small>Mathematical Foundations · Software Systems · Orchestration</small>
+## Current Work
 
-I work on systems at the point where their descriptions lose authority.
+- 🎮 **[Recover rules from unfamiliar environments](SELECTED_WORK.md#01--interactive-environments)** — Native ARC-AGI-3 investigations: **SK48 8/8 · LS20 7/7 · FT09 6/6** local completions, with fresh replays and changed-trajectory tests. Recover the rule; don't confuse one successful route with an explanation.
+- ∑ **[Distinguish transformations that initially agree](docs/FINITE_STATE_CONJUGACY.md)** — On an 81-state invariant fiber, restricted actions agree under eight fixed-point observations and separate at the ninth. A distinct positive case reports an intertwining correspondence. Scope: restricted actions; public witness bundle pending.
+- 🔗 **[Move work across independent systems](PROJECTS.md#cross-system-orchestration--runtime)** — Runtime connecting tasks, sources, agents, and human handoffs without replacing their native state. Preserve the difference between an intended action and a completed one. *Private development.*
+- 🧪 **[Test whether an agent actually acts](SELECTED_WORK.md#02--local-generative-agent-canary)** — A local Qwen 3 4B model selected a source; the evaluator executed the read and returned a matching hash. One verified tool movement, not an autonomous build.
+- 🛠️ **[Carry data through an operating service](PROJECTS.md#complete-public-data-service)** — Ingestion, reconciliation, storage, API, interface, deployment, monitoring. The whole chain has to survive its real dependencies. *Build direction; not shipped.*
 
-There is a state, an available movement, and something returned. What changed? What survived? Does the relation still hold when the conditions change? If it fails, I keep the failure and recover the condition that was missing. I do not preserve an answer by quietly changing the question.
+## Research & Writing
 
-The instrument follows the problem. Mathematics when the relation can be stated exactly. Software when it must execute. Orchestration when work crosses systems that cannot be reduced to one state. What matters is whether the evidence survives the crossing.
+| Type | Record | Date |
+| --- | --- | --- |
+| Investigation | [Interactive environments — native action and replay](SELECTED_WORK.md#01--interactive-environments) | Oct 2026 |
+| Mathematics | [Finite-state transformations — distinctions and witnesses](docs/FINITE_STATE_CONJUGACY.md) | Oct 2026 |
+| Systems | [Cross-system execution and handoffs](PROJECTS.md#cross-system-orchestration--runtime) | Oct 2026 |
+| Research | [What a result must preserve](RESEARCH.md) | Oct 2026 |
+| Positions | [Working positions; subject to the next witness](OPINIONS.md) | Current |
 
-## Work in view
+## Coding
 
-### [Recover rules from an environment that does not supply them](SELECTED_WORK.md#01--interactive-environments)
+<details>
+<summary>Method</summary>
 
-In ARC-AGI-3, I worked from native states, actions, returned results, and fresh replay. Recorded local full-game completions: **SK48 8/8**, **LS20 7/7**, **FT09 6/6**. The FT09 work also tested recovery from changed action histories. A finished route is an outcome; a rule that continues to predict the environment is the research. These are specific local results, not an unseen-game generalization claim.
+I start with the current referent, not a diagram of the intended system. Observe the native state, perform an allowed action, inspect the return, and test the proposed relation under changed conditions.
 
-### [Distinguish transformations that agree under the first observations](docs/FINITE_STATE_CONJUGACY.md)
+A summary is not evidence. A clean explanation is not a working instrument. When a boundary fails, the failure tells me what has to be reached next.
 
-Two systems can produce the same observations without admitting the same structure. On a declared 81-state invariant fiber, the fixed-point counts of two restricted actions agree through eight iterations and diverge at the ninth: **nine 9-cycles** versus **three 27-cycles**. A separate positive case reports an explicit correspondence between restricted actions. The observation budget, watched space, and action being compared remain part of the claim. Public reproduction artifacts are still pending.
+</details>
 
-### [Carry execution across systems without erasing their differences](PROJECTS.md#cross-system-orchestration--runtime)
+<details>
+<summary>Agents & orchestration</summary>
 
-I am building a runtime joining tasks, agents, files, external sources, and human handoffs while retaining native state and source ancestry. A proposed action, a permitted action, an executed action, and a returned result are not synonyms. Each boundary must account for what moved and what did not. **Private development; integration testing ongoing.**
+- Separate **proposal → authorization → execution → returned state → evaluation**.
+- Preserve source ancestry and task state when work crosses repositories, runtimes, APIs, files, and people.
+- Test with real dependencies. A passing mock does not establish a working handoff.
+- Keep unknowns visible. Promotion requires a witness, not a confident report.
 
-### [Separate an agent's answer from an action it actually performed](SELECTED_WORK.md#02--local-generative-agent-canary)
+</details>
 
-In one local test, **Qwen 3 4B** selected a repository source. The evaluator performed the permitted read and recorded a file hash that matched independently. One witnessed tool movement. Not an autonomous build, and not a reason to promote the rest of the queue to complete.
+<details>
+<summary>The larger question</summary>
 
-### [Connect source data to an operating service](PROJECTS.md#complete-public-data-service)
+Automating labor changes who performs the work. Automating the process that finds the next question, constructs the instrument, tests the answer, corrects it, and continues would change something deeper.
 
-The build direction spans ingestion, validation, reconciliation, storage, API, interface, deployment, and monitoring. The test is the whole chain, including the failure path. Naming every component is not the same as getting a result across every boundary. **Not yet shipped.**
+If thinking itself becomes a reproducible, continuing process, more intelligence does not settle where humanity should go. It removes one constraint without supplying the next purpose. The machine's ability to proceed is not authority to choose for everyone.
 
-## The boundary beyond the work
+This is why I build independent, useful surfaces rather than making an entire underlying research direction a condition of use. Each thing should work where a person encounters it. Its source and limitations should be inspectable. Further investigation should remain possible, but voluntary. Known hazards are not exempt from disclosure.
 
-Automating labor is one problem. Automating the process that finds the next problem, constructs the instrument, tests its own answer, corrects it, and continues is another.
+There is a difference between making a capability available and making its consequences inhabitable. The interval between them matters.
 
-If that second process becomes sufficiently reliable and general, the constraint changes. Thinking is no longer necessarily the scarce step in producing the next answer. Neither is invention. The old assumption that people will always be needed to carry progress forward stops being a safe foundation for organizing human life.
+**If the search can continue without us, where do we choose to go?**
 
-That is a question at the edge of this work, **not a claim that general thinking has been solved**.
+This is a direction of inquiry, not a claim that general thinking has already been solved.
 
-The difficult part is what follows. A machine can continue an investigation without thereby deciding why the investigation should continue. More capability does not supply purpose, consent, or rightful direction. Humanity cannot be assigned whatever work remains after the system has finished optimizing.
+</details>
 
-This is why the way a capability enters the world matters.
+## Other
 
-I build useful systems that can stand at their own boundary. A person should be able to use the tool, inspect its behavior, challenge its claims, and stop there. Following the deeper research must remain a choice, not a prerequisite. The larger account should be reachable through evidence, not imposed through the interface. Relevant risks and limits still have to be disclosed; preserving room for independent discovery is not permission to mislead.
-
-That room has a function. It keeps capability from being mistaken for authority and gives people time and space to develop their own understanding before another layer becomes unavoidable.
-
-If the machinery can eventually continue the search, the human question is not how to remain employed by it. It is **where we choose to go when the search no longer depends on us**—including beyond the frontiers we currently occupy.
-
-## Records
-
-[Selected investigations](SELECTED_WORK.md) · [Research notebook](RESEARCH.md) · [Technical range](ABILITY.md) · [Working positions](OPINIONS.md) · [Claim and witness index](PROVENANCE.md)
-
-The record separates local observations, private implementations, untested directions, and publicly reproducible evidence. A summary is an entrance to the work, not a substitute for its witnesses.
+- [Selected work](SELECTED_WORK.md) · [Technical range](ABILITY.md) · [Research notebook](RESEARCH.md)
+- [Projects and active directions](PROJECTS.md) · [Claims and witnesses](PROVENANCE.md)
+- Public records distinguish local tests, private development, proposals, and reproducible artifacts.
