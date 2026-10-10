@@ -1,10 +1,6 @@
 # James Muneoka
 
-> **What should humanity do when thinking itself becomes automated?**
-
-Automating a task and automating the inquiry that produces the next task are different problems. If a system can identify an unknown, construct the instrument required to investigate it, evaluate the result, correct its course, and continue, technical progress may no longer depend on a person directing each step. That possibility leaves the more consequential question unresolved: **who determines what is worth pursuing when the process of inquiry can continue without us?**
-
-This is the question directing my research, not a conclusion that autonomous inquiry has already been established.
+> **What does humanity do when thinking itself becomes automated?**
 
 **Systems Researcher · Systems Architect · Orchestration Engineer**
 
@@ -14,54 +10,54 @@ This is the question directing my research, not a conclusion that autonomous inq
 ![Orchestration](https://img.shields.io/badge/-Orchestration-455A64?style=flat-square)
 ![Agent Evaluation](https://img.shields.io/badge/-Agent%20Evaluation-546E7A?style=flat-square)
 
-I begin with structures already present. I establish what can be observed, identify the relation under examination, and test what it preserves. Construction follows the admitted relation, never the reverse. A constructed instrument then becomes part of the observed system and must be regrounded against its actual return.
+I investigate structures already present. I follow the observed relation, determine what survives a change of conditions, and reground wherever the evidence breaks. Mathematics comes from the relation; construction comes afterward. Neither an explanation nor an instrument is allowed to stand independently of what it returns.
+
+The larger question follows from the work. Automating a task is one thing. Automating the process that identifies an unknown, constructs the next instrument, tests its result, corrects itself, and continues is another. Whether that can be achieved generally remains open. If it can, technical capability will not answer what should be pursued, by whom, or for what purpose.
 
 ## Current Work
 
-- 🎮 **[Recovering rules from unfamiliar environments](SELECTED_WORK.md#01--interactive-environments)** — Recorded local ARC-AGI-3 completions: **SK48 8/8 · LS20 7/7 · FT09 6/6**. Native state transitions, fresh replays, and changed trajectories test whether recovered rules continue to hold.
-- ∑ **[Distinguishing finite-state actions](docs/FINITE_STATE_CONJUGACY.md)** — On a specified 81-state invariant fiber, two restricted actions agree in fixed-point counts through eight iterations and diverge at the ninth. A separate positive case tests an action-preserving correspondence.
-- 🔗 **[Preserving state across independent systems](PROJECTS.md#cross-system-orchestration--runtime)** — A runtime joining tasks, agents, files, external sources, and human handoffs without replacing their native states or losing their provenance. *Private development.*
-- 🧪 **[Evaluating executed agent behavior](SELECTED_WORK.md#02--local-generative-agent-canary)** — In a local Qwen 3 4B test, an evaluator executed a model-selected repository read and recorded a matching file hash. The observed result is one tool action, not autonomous completion.
-- 🛠️ **[Testing a service across its full chain](PROJECTS.md#complete-public-data-service)** — Source ingestion, reconciliation, storage, API, interface, deployment, and monitoring under end-to-end acceptance conditions. *Construction in progress.*
+- 🎮 **[Recover rules from unfamiliar environments](SELECTED_WORK.md#01--interactive-environments)** — ARC-AGI-3: **SK48 8/8 · LS20 7/7 · FT09 6/6** recorded local completions. Native transitions, fresh replays, and changed trajectories test the recovered rule rather than a memorized route.
+- ∑ **[Distinguish finite-state actions by continuation](docs/FINITE_STATE_CONJUGACY.md)** — On a declared 81-state invariant fiber, fixed-point counts of two restricted actions agree through eight iterations and differ at the ninth. A separate experiment tests an explicit action-preserving correspondence.
+- 🔗 **[Preserve state across independent systems](PROJECTS.md#cross-system-orchestration--runtime)** — Runtime joining tasks, agents, files, external sources, and human handoffs without collapsing their native states. *Private development.*
+- 🧪 **[Check agent execution against its actual return](SELECTED_WORK.md#02--local-generative-agent-canary)** — A local Qwen 3 4B model selected a repository source; the evaluator performed the read and returned a matching file hash. One witnessed tool step, not autonomous completion.
+- 🛠️ **[Test a service across its real dependencies](PROJECTS.md#complete-public-data-service)** — Ingestion, reconciliation, storage, API, interface, deployment, and monitoring as a connected engineering problem. *Build direction; not shipped.*
 
 ## The Antechamber
 
-I use *Antechamber* to name a relation already present, not an institution I have established. Access to a statement, understanding the structure on which it depends, and possessing the means to extend it are distinct conditions. That interval exists independently of my description of it.
+*Antechamber* is my name for a threshold already present in the investigation. Encountering a structure, understanding the relations it carries, and being able to continue from those relations are not the same condition. I did not invent that distinction. I am trying to describe and test what is there.
 
-The mathematics does not create the structure. It is my means of examining relations encountered within it. I do not begin by inventing a system and then imposing it on the referent. I begin with what is there. When the relation supports a construction, I construct; when the return contradicts it, I reground. The same requirement applies to a mathematical line, an executable tool, or a decision to publish either.
+This is not a membership, a secret organization, or an invitation to adopt my conclusions. I cannot decide who else reaches an overlapping relation, or by what route. Someone may recognize a connection through their own work; recognition is a reason to examine the evidence, not proof that the investigations agree.
 
-**The Antechamber is neither a membership organization nor a claim of privileged authority.** Directly testing certain results may require access to the operative conditions of an ongoing investigation. That is participation in the work, not an obligation to accept its conclusions. Agreement has no evidentiary standing.
+The concern is not restricted to AI companies or even to artificial systems. Other investigators and actors may be human, nonhuman biological, or artificial. I do not presume which exist at this boundary, how far they have progressed, or whether any have encountered this repository.
 
-## Publication and Responsibility
+**The Antechamber is also a disclaimer about consequences.** If the continuation of inquiry no longer depends on human thinking at every step, the ability to proceed does not confer authority to determine what follows. Humanity must still contend with purpose, agency, and its next direction. The same distinction between capability and authority applies to any actor capable of continuing the work.
 
-The public record is intentionally narrower than the active research. I am re-proving and separating material along declared mathematical lines so that a result can be examined within its stated conditions without necessarily disclosing every operation capable of extending the construction.
+## The Record
 
-This is a distinction between **what is demonstrated, what can be independently examined, and what further access would enable**. The distinction has technical consequences and, where a capability could materially affect human agency, ethical consequences.
+This repository is a trace of the investigation, not a complete account of its working material or a program for admitting readers. I do not start by deciding what to reveal and then constructing a justification around it. I follow what has been established and keep the resulting statements within their actual conditions.
 
-The release question is not whether an audience should be permitted to think. It is whether publishing one result also transfers a larger capability before its conditions and consequences have been adequately examined. An independently useful result should not require acceptance of an inaccessible explanation. Likewise, restrictions on the underlying material do not establish the validity of an unpublished claim.
+Some results can be examined from these documents; others require local witnesses, operative state, or instruments that are not here. Anyone evaluating the public record should distinguish those conditions. **A private witness is not public proof. A public description is not the underlying structure.** Neither distinction changes where the next test must begin.
 
 <details>
-<summary>Evidence, access, and limits</summary>
+<summary>Method and regrounding</summary>
 
-A mathematical statement, a local witness, a public reproduction, and the means to extend the underlying system are not equivalent artifacts.
+The referent precedes its description. Recover the relation from observation, test it under changed conditions, and retain the counterexample when it breaks. Formalize what survives. Construct only from that ground.
 
-The public record distinguishes observations and test reports from independently reproducible evidence. Some working sources, exact witnesses, and runtime conditions remain private. Their absence limits what an outside reader can verify; it does not invalidate a result automatically or make the result established by assertion.
+Creation does not end the process. Its actual return becomes part of the next observation; the relation is tested again. If the result moves outside its conditions, reground rather than extend the claim.
 
-Where independent examination requires access to an active investigation, the necessary conditions should be stated. Restriction is an accountable release decision, not an alternative standard of proof. Known hazards and material limitations should remain disclosed.
+</details>
+
+<details>
+<summary>Evidence and agent execution</summary>
+
+- Separate **proposal → authorization → execution → returned state → evaluation**.
+- Preserve source identity, native state, and evidence at each system boundary.
+- Do not convert a local result into an unseen-environment or general-capability claim.
+- Retain **UNKNOWN** when a witness has not resolved the question.
 
 [Claim and witness index](PROVENANCE.md)
 
 </details>
-
-## Beyond Automated Thinking
-
-The technical question is whether inquiry can become independently continuable. The human question begins where technical competence ceases to settle the next decision.
-
-What is worth investigating? Who determines the purpose of a process that no longer requires their labor or invention? What forms of human agency remain meaningful when necessity is no longer the principal reason to participate?
-
-Those questions are not solved by accelerating the machinery. **The capacity to continue is not the authority to choose a destination.**
-
-The Antechamber matters because encountering a capability, understanding its consequences, and deciding how to live with it are not the same event. I am examining the structures and relations already present at that boundary. Whatever I create must remain answerable to them.
 
 ## Research & Writing
 
@@ -73,28 +69,6 @@ The Antechamber matters because encountering a capability, understanding its con
 | Research | [Observation, representation, and continuity](RESEARCH.md) | Oct 2026 |
 | Positions | [Working technical positions](OPINIONS.md) | Current |
 
-## Engineering Notes
-
-<details>
-<summary>Method and regrounding</summary>
-
-The referent precedes the representation. A hypothesis must constrain another observation, not merely accommodate the last one. Counterexamples remain part of the record.
-
-Construction is subsequent to the demonstrated relation. Its output is not exempt from the same scrutiny that permitted its construction.
-
-</details>
-
-<details>
-<summary>Agents and orchestration</summary>
-
-- Keep **proposal → authorization → execution → returned state → evaluation** distinct.
-- Preserve native state, source identity, and evidence across system boundaries.
-- Verify real handoffs; a simulated pass does not establish an operating integration.
-- Preserve UNKNOWN where the available observation does not settle the relation.
-
-</details>
-
 ## Other
 
-- [Selected investigations](SELECTED_WORK.md) · [Technical range](ABILITY.md) · [Research notebook](RESEARCH.md)
-- [Projects and research directions](PROJECTS.md) · [Claims and witnesses](PROVENANCE.md)
+[Selected work](SELECTED_WORK.md) · [Technical range](ABILITY.md) · [Research notebook](RESEARCH.md) · [Projects](PROJECTS.md) · [Evidence index](PROVENANCE.md)
