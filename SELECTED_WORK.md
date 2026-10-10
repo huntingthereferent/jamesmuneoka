@@ -4,6 +4,8 @@ Each case keeps the **question, intervention, returned result, and unresolved bo
 
 ### 01 / Interactive environments
 
+**Public source and evidence map:** [ARC native code, mathematical solvers, run records and missing artifacts](ARC_EVIDENCE.md) · [native SDK frame observer](https://github.com/huntingthereferent/language-network/blob/main/runtime/arc_native_observer.py) · [observer integration tests](https://github.com/huntingthereferent/language-network/blob/main/network/tests/test_arc_native_observer.py). The observer tests include synthetic frames and an opt-in real FT09 **single-step** test; neither constitutes a full-game solving policy or replay of the completion reports below.
+
 **Referent:** native ARC-AGI-3 games. **Status:** measured local outcomes, October 2026; full source/test bundles are not public here.
 
 The challenge was an unfamiliar interactive environment whose useful specification had to be recovered from what actions actually changed. Investigation proceeded from native state captures and bounded experiments, then tested predictions against the next returned state. Failed hypotheses stayed in the record rather than being converted into a story of uninterrupted success.
