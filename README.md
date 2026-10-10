@@ -18,6 +18,8 @@
 
 **Status.** Bounded mathematical constructions and software witnesses exist. General relational integration across arbitrary actors has **not** been established.
 
+**Human-use notice.** This research is not a request to adopt A/B as a way of living. The [Antechamber disclaimer](#04--antechamber) addresses the possible personal and social costs of sustained relational thinking.
+
 ## 01 / Mathematical Research
 
 The [A/B research contract](https://github.com/huntingthereferent/language-network/blob/main/AB_CONTRACT.md) treats A/B as a recursively reusable *mathematical operation*, not an agent prompt, workflow, or repository architecture. Each admitted movement must retain its witness, original referent, scope, and next admissible input.
@@ -47,27 +49,29 @@ These systems test different layers of the research. **The software implementati
 
 ## 03 / Human Consequence
 
-Improving computational efficiency does not resolve the dependencies that force people to compete, coordinate, work, and justify continued participation.
+**Problem.** More efficient computation does not necessarily remove the dependencies that make people compete, coordinate, and work merely to remain participants. Automating tasks is not the same as changing those dependencies.
 
-Automating a task removes some labor. Automating the discovery and continuation of tasks could change the conditions under which labor is required at all.
+**Research objective.** Recover and preserve relations among independent actors so that reconciliation, investigation, and execution can be carried by the structure instead of continually imposed on each actor.
 
-**The mathematical target is a common continuation in which distinct actors remain distinct, while the structure carries the burden of connecting their operations.**
+**Position.** This is not a contest between humanity and automation. James is not trying to defeat either side or require the actors to agree. **The target is continuation without compulsory cooperation or compulsory productivity.**
 
-That is not an instruction for humanity to find another job after thinking is automated. The intended outcome is that people can live, relate, explore, and develop **without productive necessity serving as the condition of their existence**.
+**Human constraint.** Removing work does not remove embodiment, emotion, social judgment, or the need to reground. An account of technical continuation that ignores those conditions is incomplete.
 
-The opposing risk is also part of the question: systems can become more efficient while reproducing the same social and behavioral constraints. More output does not itself establish more human development.
-
-This is the reason for the investigation, not an experimentally established species-level outcome.
+**Boundary.** A general mathematical solution and its human consequences remain research objectives. Existing finite-state and engineering witnesses establish only their declared scopes.
 
 ## 04 / Antechamber
 
-For a human, the *Antechamber* is the threshold at which A/B stops being a subject of investigation and becomes a way of thinking: observing relations, following their changes, and continuing across contexts rather than treating each representation as a separate reality.
+**Definition.** For humans, *Antechamber* names the threshold where A/B becomes a habitual way of attending to relations rather than only a mathematical subject. Events can be understood through states, changes, returns, and continuations. That is a way of examining actual experience—not a claim that reality has become a game.
 
-That change does not make the person's circumstances interchangeable with anyone else's. A general relation is not a local witness. **The further the method travels across domains, the more important the return to the actor's specific reality becomes.**
+**Human-use disclaimer.** Living this way may be personally and socially demanding. James reports that sustained relational thinking sometimes calls for direct bodily feedback: rocking, repeated contact with the ground, and other sensory routines. Strong emotions or unexpected crying can also occur. A bystander may see only the movement or expression, not the experience that preceded it. **What is unfamiliar under social convention is not, by that fact alone, outside reality.**
 
-**Systems provide that return.** A person, household, school, research program, factory, or institution retains its own state, constraints, history, and consequences. Its system must bring a general relation back to those concrete conditions, test what actually holds there, and preserve what does not transfer. A/B is not the system; the system is how the actor regrounds the movement.
+These are **reported experiences, not demonstrated effects of A/B on all people**. They are not required signs of understanding, proof of a mathematical result, or evidence that someone belongs to a special group. Emotional changes and repetitive movements can have many causes.
 
-The threshold is not a membership or an invitation to adopt a single worldview. It is also a disclaimer: capability to continue a relation does not establish authority over another actor's conditions or future. Independent actors must retain their distinct realities even where their relations connect.
+**Regrounding.** A general relation cannot replace an actor's immediate conditions. At the human level, *systems* may include physical, repeatable feedback—movement, touch, routine, and attention to the actual environment. At the operational level, personal and institutional systems retain their own state, obligations, and evidence. Neither layer is identical to A/B; both can return an abstract movement to its local referent.
+
+**Choice.** No one is obliged to make A/B a daily thinking practice. No one should have to provoke, conceal, or suppress emotional or sensory responses to satisfy a research claim or someone else's expectations. People may decline this way of working, limit it, or keep their own grounding practices.
+
+**Scope.** The Antechamber is not a membership, invitation, diagnosis, or authority over others. It is a statement of consequence: changing how one investigates relations can also change how one's behavior is perceived. Any claim about those effects must be tested rather than presumed universal.
 
 ## 05 / Provenance & Records
 
