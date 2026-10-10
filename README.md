@@ -127,14 +127,14 @@ This is a research motivation, **not** a demonstrated mathematical or social con
 <details>
 <summary><b>Method / reproduction contract</b></summary>
 
-\`\`\`text
+```text
 CURRENT REFERENT
   -> observe source / state / transformation
   -> state an admissible relation and mathematical question
   -> construct / compare / continue under declared conditions
   -> verify a witness, counterexample, or exact wall
   -> preserve source + ancestry + uncertainty + next referent
-\`\`\`
+```
 
 An equation with an all-depth proof, an executable finite check, an unrun committed test, a locally reported run, and externally reproduced behavior are different evidence states. Do not substitute one for another.
 
