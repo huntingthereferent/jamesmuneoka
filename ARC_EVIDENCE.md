@@ -65,7 +65,9 @@ The archive also contains additional experimental policies, alternate replays, l
 4. Native complete-game states, scorecard outputs, and actual validation logs after fresh execution.
 5. Separate result labels for source-assisted, reference replay, public-frame policy, and autonomous first-contact tests.
 
-The uploaded archive's autonomous cyclic-agent reports also include unsuccessful native runs. A winning saved replay and a failed autonomous attempt are **different experiments** and must stay separately attributable.
+The [original FT09 visible-frame causal policy](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/ft09_visible_causal_agent.py) is now published as source with its machine-specific vendor import path removed. Its executed outcomes are reported locally; a fresh verified native run has not been captured by this transfer.
+
+The [autonomous cyclic-agent trial outcomes](https://github.com/huntingthereferent/language-network/blob/main/research/arc_native_runs/AUTONOMOUS_TRIALS.md) also include unsuccessful native runs. A winning saved replay and a failed autonomous attempt are **different experiments** and must stay separately attributable.
 
 **Current status:** actual saved routes and replay interface **PUBLIC**; public mathematical solvers and observer **PUBLIC**; full original game-specific development policies, per-step traces and fresh externally replicated results **INCOMPLETE**.
 
