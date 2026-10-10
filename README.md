@@ -27,21 +27,23 @@ The research starts with observation and an existing relation. It asks which con
 
 ## 01 / Mathematical Objects
 
-For a declared family \(\mathcal F\) of candidate laws and witnessed requirements \(R\), the inverse-construction entry is:
+For a declared family $\mathcal F$ of candidate laws and witnessed requirements $R$, the inverse-construction entry is:
 
-\[
+$
 \operatorname{Inv}_{\mathcal F}(R)
-=\{\,W\in\mathcal F:W\text{ satisfies }R\,\}.
-\]
+=\{\,W\in\mathcal F\mid W\text{ satisfies }R\,\}.
+$
 
-For a **specified** pair of A/B transformation systems, a full-state correspondence \(H\) must satisfy the two labeled conjugacy equations:
+For a **specified** pair of A/B transformation systems, a full-state correspondence $H$ must satisfy both labeled conjugacy equations:
 
-\[
-H\circ A_P=A_Q\circ H,\qquad
-H\circ B_P=B_Q\circ H.
-\]
+$
+\begin{aligned}
+H\circ A_P &= A_Q\circ H,\\
+H\circ B_P &= B_Q\circ H.
+\end{aligned}
+$
 
-A correspondence on an invariant \(B\)-fiber alone proves neither of these full two-generator conditions automatically. Rooted history, whole-state equivalence, quotient alignment, and transport of a **selected** symmetry are separate mathematical claims.
+A correspondence on an invariant $B$-fiber alone proves neither of these full two-generator conditions automatically. Rooted history, whole-state equivalence, quotient alignment, and transport of a **selected** symmetry are separate mathematical claims.
 
 The research moves through several distinct operations:
 
@@ -66,9 +68,9 @@ Selected finite-field results. These numbers refer to **different mathematical f
 | Two-predecessor full-state classification | **48 laws; 14 full-state classes; 16 origin-preserving classes** | Changing the mark can change the classification without changing the underlying full-state relation. [Exact family](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/WINDOW_COMBINED.md) |
 | Construction processes | **81 two-phase rule templates; 34 diagonal process classes** | Coinductive, all-depth alignment for the declared eventually periodic grammar. [Process record](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/README.md) |
 | Process-level operators | **324** template/gauge alignments; **1,296** tested compositions | A four-element period-two coordinate-gauge subgroup preserves the specified relation; shifting raw descriptions need not. [Operator source](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/process_operators.py) |
-| New law versus new representation | Depth-three \(B\)-fixed states **9 vs. 6** | An independently edited two-input coupling gives a genuine full-state obstruction; nonlinear shear conjugacy by itself does not. [Construction proof](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/WINDOW_TWO.md) |
+| New law versus new representation | Depth-three $B$-fixed states **9 vs. 6** | An independently edited two-input coupling gives a genuine full-state obstruction; nonlinear shear conjugacy by itself does not. [Construction proof](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/WINDOW_TWO.md) |
 | Fifth-coordinate admission and selected symmetry | **486** fourth-coordinate configurations; **30,510** admitted configuration/coupling combinations | Distinct correction choices, admissibility, cyclic orders, and marked-point transport retained separately. [Classifier](https://github.com/huntingthereferent/language-network/blob/main/work/arc_like_maze/POINTED_COUPLING_CLASSIFICATION.md) |
-| Restricted cyclic \(B\)-action | Distinction at \(B^9\); separate positive \(B\)-intertwiner at \(B^{27}\) | The declared **81-state invariant fiber**, not a full A/B equivalence theorem. [Case](docs/FINITE_STATE_CONJUGACY.md) |
+| Restricted cyclic $B$-action | Distinction at $B^9$; separate positive $B$-intertwiner at $B^{27}$ | The declared **81-state invariant fiber**, not a full A/B equivalence theorem. [Case](docs/FINITE_STATE_CONJUGACY.md) |
 
 **In-progress integration.** [Continuity Engine / fifth-coupling classification — PR #18](https://github.com/huntingthereferent/language-network/pull/18) preserves further historical experiments, a scoped 243-state model and 19,683 coupling laws. It remains **open and unmerged** while integrated validation is unresolved. Do not promote local classification or archive integrity results into a passing CI claim.
 
