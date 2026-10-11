@@ -38,7 +38,7 @@ The independently checked local file hash matched at the time of the test. The o
 
 ### Finite-state conjugacy testing
 
-Local reports from October 2026 describe an 81-state \(B\)-invariant fiber. The negative pair has nine 9-cycles versus three 27-cycles; their fixed-point counts first diverge at \(B^9\) under the declared restricted observation. A separate positive case reportedly constructs and verifies an intertwining bijection for restricted \(B\)-actions. A later reported checkpoint experiment retains the underlying comparison while serializing and restoring it.
+Local reports from October 2026 describe an 81-state $B$-invariant fiber. The negative pair has nine 9-cycles versus three 27-cycles; their fixed-point counts first diverge at $B^9$ under the declared restricted observation. A separate positive case reportedly constructs and verifies an intertwining bijection for restricted $B$-actions. A later reported checkpoint experiment retains the underlying comparison while serializing and restoring it.
 
 **Reported local checks:** 13/13 continuation tests and 17/17 re-entry tests. **Not published here:** exact laws, fiber predicates, source code, positive bijection, serialized checkpoint fixtures, or runnable tests. No full two-generator equivalence or general method is implied.
 
