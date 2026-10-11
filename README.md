@@ -108,13 +108,17 @@ Historical work is preserved under [project records](PROJECTS.md), [selected cas
 
 </details>
 
-## 05 / Human Consequence & Antechamber
+## 05 / Human Consequence & Antechamber Protocol
 
 **Long-horizon question:** What becomes possible for independent people and institutions if investigation, coordination, and execution can be carried without forcing unlike actors into one objective or requiring one participant to remain the permanent operator?
 
 This is a research motivation, **not** a demonstrated mathematical or social consequence. Automating reasoning does not itself resolve economic pressure, institutional responsibility, relationships, physical needs, or access to resources.
 
-*Antechamber* is a provisional term for the human-facing boundary of engaging with these ideas, not an invitation, membership, diagnosis, or mathematical theorem. It does not imply that James has physically left, completed, or enacted the possible movements studied in mathematics. People may participate, disengage, reground, or decline without having to justify their responses as evidence of A/B.
+**Human-facing reference:** [The Antechamber Protocol — The Steppers](https://thestepps.wordpress.com/).
+
+The mathematics is not a prescription for being human. Someone may encounter A/B expecting it to fix everything and then discover that **A/B is just A/B**. The Antechamber Protocol describes why a quieter, voluntary space might matter at that point: to distinguish what the mathematics establishes from what was hoped for, and to find or recover a personal reason to continue without public spectacle, compulsory agreement, or disclosure.
+
+This is a **proposed human-use boundary**, not an operating private refuge, a therapeutic program, membership, diagnosis, or theorem. It does not establish that James has physically left, completed, or enacted the possible movements studied in mathematics. People may participate, return to ordinary responsibilities, disengage, or decline without treating their responses as evidence of A/B. Privacy must not require isolation or loss of independent support.
 
 **Safety boundary.** No interpretation of A/B requires enduring severe distress, sleep loss, isolation, suicidal thinking, or urges to self-harm. Those concerns warrant ordinary human and professional support, not further immersion as a supposed mathematical test. There is no established evidence that A/B causes a predictable psychological sequence.
 
