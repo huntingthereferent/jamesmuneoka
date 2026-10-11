@@ -65,11 +65,11 @@ Future evidence must include an actual running system, reproducible input/output
 
 **Referent:** the continued observation of restricted invertible transformations. **Status:** local mathematical experiments reported in October 2026; public source and witness bundle pending.
 
-Two systems over $\mathbb F_3^5$ differ by one admissible next-coordinate coupling. Restricted to a specified 81-state $B$-invariant fiber, the first action has nine cycles of length 9 and the second three cycles of length 27. Their periodic-point counts agree through $B^8$, then differ at $B^9$: 81 fixed states versus zero. Their restricted $B$-actions are therefore nonconjugate. On the full 243-state space, a distinction appears earlier, at $B^3$.
+Two systems over F₃⁵ differ by one admissible next-coordinate coupling. Restricted to a specified 81-state B-invariant fiber, the first action has nine cycles of length 9 and the second three cycles of length 27. Their periodic-point counts agree through B⁸, then differ at B⁹: 81 fixed states versus zero. Their restricted B-actions are therefore nonconjugate. On the full 243-state space, a distinction appears earlier, at B³.
 
-A separate positive control reports an explicit verified bijection intertwining the restricted $B$-actions of two distinct laws with matching 27-cycle structures. In the declared observation procedure, the negative case remains UNKNOWN at budget 8 and becomes DISTINGUISHED at 9; the positive case remains UNKNOWN at budget 26 and yields a verified restricted-$B$ correspondence at 27.
+A separate positive control reports an explicit verified bijection intertwining the restricted B-actions of two distinct laws with matching 27-cycle structures. In the declared observation procedure, the negative case remains UNKNOWN at budget 8 and becomes DISTINGUISHED at 9; the positive case remains UNKNOWN at budget 26 and yields a verified restricted-B correspondence at 27.
 
-Reported tests: **13/13** for native continuation and **17/17** for serialization, re-entry, and continued observation. The results do not assert simultaneous $A$/$B$ conjugacy, an unrestricted construction method, or independent public reproducibility.
+Reported tests: **13/13** for native continuation and **17/17** for serialization, re-entry, and continued observation. The results do not assert simultaneous A/B conjugacy, an unrestricted construction method, or independent public reproducibility.
 
 [Detailed mathematical record](docs/FINITE_STATE_CONJUGACY.md) · [Witness status](PROVENANCE.md#finite-state-conjugacy-testing)
 
